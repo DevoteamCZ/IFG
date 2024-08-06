@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ca8c03c0932b02100580f55a7bba10e7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <average_daily_fte/>
+        <cost_center/>
+        <default_assignee/>
+        <description/>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <hourly_rate>0</hourly_rate>
+        <include_members>false</include_members>
+        <manager/>
+        <name>Integration Onboarding Programme</name>
+        <parent/>
+        <points>0</points>
+        <roles/>
+        <source/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 19:01:12</sys_created_on>
+        <sys_id>ca8c03c0932b02100580f55a7bba10e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 19:01:12</sys_updated_on>
+        <type>1bff3b1493030200ea933007f67ffb6d</type>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:39:42</sys_created_on>
+        <sys_id>7605b8aec3330210627432f1b40131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Onboarding Programme</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_7605b8aec3330210627432f1b40131a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:39:42</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

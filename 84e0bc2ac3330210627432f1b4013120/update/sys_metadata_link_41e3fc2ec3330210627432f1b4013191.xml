@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>855d093e2f3d0110152459a72799b69d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
+    &lt;rm_story action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;.&lt;/p&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_due/&gt;
+        &lt;additional_assignee_list/&gt;
+        &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
+        &lt;approval&gt;not requested&lt;/approval&gt;
+        &lt;approval_history/&gt;
+        &lt;approval_set/&gt;
+        &lt;assigned_to/&gt;
+        &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
+        &lt;backlog_type&gt;product&lt;/backlog_type&gt;
+        &lt;blocked&gt;false&lt;/blocked&gt;
+        &lt;blocked_reason/&gt;
+        &lt;business_duration/&gt;
+        &lt;business_service/&gt;
+        &lt;calculation_type&gt;automatic&lt;/calculation_type&gt;
+        &lt;calendar_duration/&gt;
+        &lt;classification&gt;Feature&lt;/classification&gt;
+        &lt;close_notes/&gt;
+        &lt;closed_at&gt;2022-06-16 12:26:03&lt;/closed_at&gt;
+        &lt;closed_by display_value=""&gt;35112313db3c94d04d8e2ded0b961921&lt;/closed_by&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;comments/&gt;
+        &lt;comments_and_work_notes/&gt;
+        &lt;company/&gt;
+        &lt;constraint_date/&gt;
+        &lt;contact_type/&gt;
+        &lt;contract/&gt;
+        &lt;correlation_display/&gt;
+        &lt;correlation_id/&gt;
+        &lt;critical_path&gt;false&lt;/critical_path&gt;
+        &lt;defect/&gt;
+        &lt;delivery_plan/&gt;
+        &lt;delivery_task/&gt;
+        &lt;demand/&gt;
+        &lt;dependency/&gt;
+        &lt;description&gt;1) Load departments to import set from csv&amp;#13;
+2) Transform departments import set to departments live table&lt;/description&gt;
+        &lt;due_date/&gt;
+        &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
+        &lt;effort/&gt;
+        &lt;end&gt;2022-02-24&lt;/end&gt;
+        &lt;end_date&gt;2022-02-24 14:14:06&lt;/end_date&gt;
+        &lt;end_date_derived_from/&gt;
+        &lt;enhancement/&gt;
+        &lt;epic display_value="Advanced"&gt;d44b4740932b02100580f55a7bba10a8&lt;/epic&gt;
+        &lt;escalation&gt;0&lt;/escalation&gt;
+        &lt;expected_start/&gt;
+        &lt;follow_up/&gt;
+        &lt;global_rank&gt;4000710000&lt;/global_rank&gt;
+        &lt;group_list/&gt;
+        &lt;group_rank/&gt;
+        &lt;has_conflict&gt;false&lt;/has_conflict&gt;
+        &lt;html_description/&gt;
+        &lt;impact&gt;3&lt;/impact&gt;
+        &lt;key_milestone&gt;false&lt;/key_milestone&gt;
+        &lt;knowledge&gt;false&lt;/knowledge&gt;
+        &lt;level/&gt;
+        &lt;location/&gt;
+        &lt;made_sla&gt;true&lt;/made_sla&gt;
+        &lt;milestone&gt;false&lt;/milestone&gt;
+        &lt;model_id/&gt;
+        &lt;mpp_task_id/&gt;
+        &lt;number&gt;STRY0010009&lt;/number&gt;
+        &lt;opened_at&gt;2022-02-24 14:14:06&lt;/opened_at&gt;
+        &lt;opened_by display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/opened_by&gt;
+        &lt;order/&gt;
+        &lt;orig_sys_id/&gt;
+        &lt;orig_top_task_id/&gt;
+        &lt;override_status&gt;false&lt;/override_status&gt;
+        &lt;parent/&gt;
+        &lt;parent_feature/&gt;
+        &lt;percent_complete&gt;0&lt;/percent_complete&gt;
+        &lt;phase_type/&gt;
+        &lt;primary_goal/&gt;
+        &lt;priority&gt;4&lt;/priority&gt;
+        &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
+        &lt;product_rank/&gt;
+        &lt;product_rel_index&gt;200000&lt;/product_rel_index&gt;
+        &lt;project display_value="Integration Onboarding Programme"&gt;20a707c893e702100580f55a7bba10fa&lt;/project&gt;
+        &lt;project_index&gt;200000&lt;/project_index&gt;
+        &lt;project_phase display_value="Agile Phase"&gt;35288bc893e702100580f55a7bba1092&lt;/project_phase&gt;
+        &lt;rank/&gt;
+        &lt;reassignment_count&gt;2&lt;/reassignment_count&gt;
+        &lt;rejection_goto/&gt;
+        &lt;relation_applied/&gt;
+        &lt;release/&gt;
+        &lt;release_index/&gt;
+        &lt;remaining_duration/&gt;
+        &lt;remaining_effort/&gt;
+        &lt;rollup&gt;false&lt;/rollup&gt;
+        &lt;route_reason/&gt;
+        &lt;run_calc_brs&gt;true&lt;/run_calc_brs&gt;
+        &lt;schedule_end_date&gt;2022-02-24 14:14:06&lt;/schedule_end_date&gt;
+        &lt;schedule_start_date&gt;2022-02-24 14:14:06&lt;/schedule_start_date&gt;
+        &lt;service_offering/&gt;
+        &lt;shadow&gt;false&lt;/shadow&gt;
+        &lt;short_description&gt;Call import set API to load Departments&lt;/short_description&gt;
+        &lt;skills/&gt;
+        &lt;sla_due/&gt;
+        &lt;software_model/&gt;
+        &lt;split_from/&gt;
+        &lt;sprint/&gt;
+        &lt;sprint_index&gt;-1&lt;/sprint_index&gt;
+        &lt;start&gt;2022-02-24&lt;/start&gt;
+        &lt;start_date&gt;2022-02-24 14:14:06&lt;/start_date&gt;
+        &lt;start_date_derived_from/&gt;
+        &lt;state&gt;-6&lt;/state&gt;
+        &lt;status&gt;green&lt;/status&gt;
+        &lt;story_points/&gt;
+        &lt;sub_tree_root/&gt;
+        &lt;sys_class_name&gt;rm_story&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-02-24 14:14:42&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;855d093e2f3d0110152459a72799b69d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-07-19 11:43:24&lt;/sys_updated_on&gt;
+        &lt;task&gt;Call import set API to load Departments​STRY0010009&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0010009&lt;/task_effective_number&gt;
+        &lt;team/&gt;
+        &lt;team_index/&gt;
+        &lt;theme/&gt;
+        &lt;time_card_at_top_task&gt;false&lt;/time_card_at_top_task&gt;
+        &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
+        &lt;time_worked/&gt;
+        &lt;time_zone/&gt;
+        &lt;top_portfolio/&gt;
+        &lt;top_program/&gt;
+        &lt;top_task display_value="PRJ0010001"&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
+        &lt;type&gt;Development&lt;/type&gt;
+        &lt;universal_request/&gt;
+        &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
+        &lt;upon_reject&gt;cancel&lt;/upon_reject&gt;
+        &lt;urgency&gt;3&lt;/urgency&gt;
+        &lt;user_input/&gt;
+        &lt;variables/&gt;
+        &lt;version/&gt;
+        &lt;watch_list/&gt;
+        &lt;wbs/&gt;
+        &lt;wbs_order/&gt;
+        &lt;wf_activity/&gt;
+        &lt;work_duration/&gt;
+        &lt;work_effort/&gt;
+        &lt;work_end/&gt;
+        &lt;work_notes/&gt;
+        &lt;work_notes_list/&gt;
+        &lt;work_start/&gt;
+    &lt;/rm_story&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:34:40</sys_created_on>
+        <sys_id>41e3fc2ec3330210627432f1b4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call import set API to load Departments</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_41e3fc2ec3330210627432f1b4013191</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:34:40</sys_updated_on>
+        <tablename>rm_story</tablename>
+    </sys_metadata_link>
+</record_update>

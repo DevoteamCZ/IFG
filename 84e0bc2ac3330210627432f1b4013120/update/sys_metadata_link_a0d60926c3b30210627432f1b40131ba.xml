@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>504ccb80932b02100580f55a7bba1025</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="backlog_definition">
+    <backlog_definition action="INSERT_OR_UPDATE">
+        <filter table="rm_story">sys_class_name=rm_story^active=true^sprintISEMPTY^EQ<item display_value="Story" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="rm_story"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="sprint" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <name>Integration Onboarding Programme</name>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <shared_with/>
+        <shared_with_groups/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 19:00:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>504ccb80932b02100580f55a7bba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 19:00:08</sys_updated_on>
+        <table>rm_story</table>
+    </backlog_definition>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 13:57:22</sys_created_on>
+        <sys_id>a0d60926c3b30210627432f1b40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Integration Onboarding Programme</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_a0d60926c3b30210627432f1b40131ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 13:57:22</sys_updated_on>
+        <tablename>backlog_definition</tablename>
+    </sys_metadata_link>
+</record_update>

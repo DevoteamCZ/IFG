@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="DELETE">
+        <description>test</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type>data_import</integration_type>
+        <internal_name/>
+        <name>test</name>
+        <record_id>9262bcaac3330210627432f1b401311c</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:28:12</sys_created_on>
+        <sys_id>5e62bcaac3330210627432f1b401311a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_5e62bcaac3330210627432f1b401311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:28:12</sys_updated_on>
+    </sn_ihub_integration_instance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</application>
+        <file_path/>
+        <instance_id>9c5a3767db8a359492f5684e13961967</instance_id>
+        <instance_name>dev197937</instance_name>
+        <name>sn_ihub_integration_instance_5e62bcaac3330210627432f1b401311a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance"><sn_ihub_integration_instance action="INSERT_OR_UPDATE"><description>test</description><integration_table>sys_data_source</integration_table><integration_type>data_import</integration_type><internal_name/><name>test</name><record_id>9262bcaac3330210627432f1b401311c</record_id><sys_class_name>sn_ihub_integration_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-06 12:28:12</sys_created_on><sys_id>5e62bcaac3330210627432f1b401311a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package><sys_policy/><sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope><sys_update_name>sn_ihub_integration_instance_5e62bcaac3330210627432f1b401311a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-06 12:28:12</sys_updated_on></sn_ihub_integration_instance></record_update>]]></payload>
+        <payload_hash>2072108592</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>44e0bc2ac3330210627432f1b4013124</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:28:12</sys_created_on>
+        <sys_id>a262bcaac3330210627432f1b4013126</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19127a94f140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:28:12</sys_updated_on>
+        <type>Data import</type>
+        <update_guid>a662bcaa5c330210ef8be00ab2845725</update_guid>
+        <update_guid_history>a662bcaa5c330210ef8be00ab2845725:2072108592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">2c9270eac3330210627432f1b4013161</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:28:54</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_integration_instance">sn_ihub_integration_instance</sys_db_object>
+        <sys_id>467119373cac409a942f5396ac87a0a4</sys_id>
+        <sys_metadata>5e62bcaac3330210627432f1b401311a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_scope_delete display_value="">191798a2aabd4a6bb53d5dab781ee559</sys_scope_delete>
+        <sys_update_name>sn_ihub_integration_instance_5e62bcaac3330210627432f1b401311a</sys_update_name>
+        <sys_update_version display_value="sn_ihub_integration_instance_5e62bcaac3330210627432f1b401311a">a262bcaac3330210627432f1b4013126</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:28:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

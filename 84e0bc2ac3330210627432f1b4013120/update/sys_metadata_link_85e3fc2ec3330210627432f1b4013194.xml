@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>930f24d2473a51108c98dd1a536d436a</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
+    &lt;rm_story action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;APIs have been developed based on the API documentation from the technical analysis.&lt;br /&gt;Initial ticket load has been done.&lt;br /&gt;Initial user load has been done.&lt;/p&gt;
+&lt;p&gt;Architect notes:&lt;br /&gt;- ,,No integration survives it&amp;#39;s first real run&amp;#34; - very rarely is it possible to have 100% understanding of all the systems and exceptions involved in an integration, no matter how simple it seems at first&lt;/p&gt;
+&lt;p&gt;- as usual communication is key and an important part of this is to have the documentation to back it up -&amp;gt; thanks to the technical specification and API documentation we have a clear vision of what has been agreed upon and what needs to be done -&amp;gt; this means that any changes or huge oversights can be compared to these agreed upon documents -&amp;gt; best way to avoid an endless blame game is to have clear definitions, assignments and deadlines (as difficult as this may be)&lt;/p&gt;
+&lt;p&gt;- careful with the processing of the ticket export, format seemed a bit strange - I also noticed some special characters and the export contained several types of tickets, so be careful about that as well&lt;/p&gt;
+&lt;p&gt;- I didn&amp;#39;t have time to check the full user export, just make sure to check for any bad data or duplicate coalesce keys&lt;/p&gt;
+&lt;p&gt;- timing in projects can be difficult and deadlines can be affected by a lot of different factors -&amp;gt; in this case the developer on the customer&amp;#39;s side doesn&amp;#39;t have enough time and his endpoints will only be ready once testing starts which is in the next story&lt;/p&gt;
+&lt;p&gt;- since the user won&amp;#39;t have his endpoints ready and his system won&amp;#39;t communicate with ours, we should make some internal tests &amp;#43; simulation via postman (simulate a lifecycle of the incident and all the possible endpoints on both ends)&lt;/p&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_due/&gt;
+        &lt;additional_assignee_list/&gt;
+        &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
+        &lt;approval&gt;not requested&lt;/approval&gt;
+        &lt;approval_history/&gt;
+        &lt;approval_set/&gt;
+        &lt;assigned_to/&gt;
+        &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
+        &lt;backlog_type&gt;product&lt;/backlog_type&gt;
+        &lt;blocked&gt;false&lt;/blocked&gt;
+        &lt;blocked_reason/&gt;
+        &lt;business_duration/&gt;
+        &lt;business_service/&gt;
+        &lt;calculation_type&gt;automatic&lt;/calculation_type&gt;
+        &lt;calendar_duration/&gt;
+        &lt;classification&gt;Feature&lt;/classification&gt;
+        &lt;close_notes/&gt;
+        &lt;closed_at/&gt;
+        &lt;closed_by/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;comments/&gt;
+        &lt;comments_and_work_notes/&gt;
+        &lt;company/&gt;
+        &lt;constraint_date/&gt;
+        &lt;contact_type/&gt;
+        &lt;contract/&gt;
+        &lt;correlation_display/&gt;
+        &lt;correlation_id/&gt;
+        &lt;critical_path&gt;false&lt;/critical_path&gt;
+        &lt;defect/&gt;
+        &lt;delivery_plan/&gt;
+        &lt;delivery_task/&gt;
+        &lt;demand/&gt;
+        &lt;dependency/&gt;
+        &lt;description&gt;Hello,
+thank you for your specifications. We are very busy, but we will try to develop and make these endpoints on our end available to you as soon as possible.
+We have prepared some exports from our System X with the current list of tickets and the current list of users.
+The ticket export is from a Database View, so some of the column names are a bit different from the column names in the target tables.
+
+Let's work on both of our implementations during the next sprints. We should perform some internal tests and then move onto UAT testing.
+
+Architect commentary:
+Users:
+- the decision to only create users in System X and synchronize them with ServiceNow seems to have been made due to licensing costs
+- this means we will just enable an import of users via REST and we have to make sure they have the same rights on the incidents as they have on the tickets on System X
+- roles can be : admin - can create other users, user - can log tickets and write notes into them, technician - can process tickets
+- make sure the roles granted are as restrictive as possible in ServiceNow to avoid licensing costs and to avoid granting access to parts of the system where the user shouldn't have access to
+- we will also perform an initial load based on the export of the latest data
+
+Ticket type:
+- complaint ticket type will be mapped to incidents and the Endpoint from System X will already have this pre-filtered
+
+Ticket:
+- we have asked for an export of a full list of tickets from the system for an initial load of tickets - you can find it attached to the story
+- each system will store the external ID of the other system -&amp;gt; note that you have to use a unique identifier in the incident table
+- fulfilled flag- &amp;gt; true/false is filled in when the technician closes the ticket -&amp;gt; this means that we will not synchronize every action taken in ServiceNow -&amp;gt; only those, which affect the fields in the external system
+- we will also perform an initial load based on export of the latest data&lt;/description&gt;
+        &lt;due_date/&gt;
+        &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
+        &lt;effort/&gt;
+        &lt;end&gt;2022-10-29&lt;/end&gt;
+        &lt;end_date&gt;2022-10-29 11:58:47&lt;/end_date&gt;
+        &lt;end_date_derived_from/&gt;
+        &lt;enhancement/&gt;
+        &lt;epic display_value="Project X"&gt;66190f4c93e702100580f55a7bba10f7&lt;/epic&gt;
+        &lt;escalation&gt;0&lt;/escalation&gt;
+        &lt;expected_start/&gt;
+        &lt;follow_up/&gt;
+        &lt;global_rank&gt;4211200000&lt;/global_rank&gt;
+        &lt;group_list/&gt;
+        &lt;group_rank/&gt;
+        &lt;has_conflict&gt;false&lt;/has_conflict&gt;
+        &lt;html_description/&gt;
+        &lt;impact&gt;2&lt;/impact&gt;
+        &lt;key_milestone&gt;false&lt;/key_milestone&gt;
+        &lt;knowledge&gt;false&lt;/knowledge&gt;
+        &lt;level/&gt;
+        &lt;location/&gt;
+        &lt;made_sla&gt;true&lt;/made_sla&gt;
+        &lt;milestone&gt;false&lt;/milestone&gt;
+        &lt;model_id/&gt;
+        &lt;mpp_task_id/&gt;
+        &lt;number&gt;STRY0019394&lt;/number&gt;
+        &lt;opened_at&gt;2022-10-29 11:58:47&lt;/opened_at&gt;
+        &lt;opened_by display_value=""&gt;86a02d641b52451058592024b24bcb07&lt;/opened_by&gt;
+        &lt;order/&gt;
+        &lt;orig_sys_id/&gt;
+        &lt;orig_top_task_id/&gt;
+        &lt;override_status&gt;false&lt;/override_status&gt;
+        &lt;parent display_value="SPNT0010007"&gt;ad21d748932b02100580f55a7bba107f&lt;/parent&gt;
+        &lt;parent_feature/&gt;
+        &lt;percent_complete&gt;0&lt;/percent_complete&gt;
+        &lt;phase_type/&gt;
+        &lt;primary_goal/&gt;
+        &lt;priority&gt;4&lt;/priority&gt;
+        &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
+        &lt;product_rank/&gt;
+        &lt;product_rel_index&gt;1300000&lt;/product_rel_index&gt;
+        &lt;project display_value="Integration Onboarding Programme"&gt;20a707c893e702100580f55a7bba10fa&lt;/project&gt;
+        &lt;project_index&gt;1800000&lt;/project_index&gt;
+        &lt;project_phase display_value="Agile Phase"&gt;35288bc893e702100580f55a7bba1092&lt;/project_phase&gt;
+        &lt;rank/&gt;
+        &lt;reassignment_count&gt;1&lt;/reassignment_count&gt;
+        &lt;rejection_goto/&gt;
+        &lt;relation_applied/&gt;
+        &lt;release/&gt;
+        &lt;release_index/&gt;
+        &lt;remaining_duration/&gt;
+        &lt;remaining_effort/&gt;
+        &lt;rollup&gt;false&lt;/rollup&gt;
+        &lt;route_reason/&gt;
+        &lt;run_calc_brs&gt;true&lt;/run_calc_brs&gt;
+        &lt;schedule_end_date&gt;2022-10-29 11:58:47&lt;/schedule_end_date&gt;
+        &lt;schedule_start_date&gt;2022-10-29 11:58:47&lt;/schedule_start_date&gt;
+        &lt;service_offering/&gt;
+        &lt;shadow&gt;false&lt;/shadow&gt;
+        &lt;short_description&gt;Project X implementation&lt;/short_description&gt;
+        &lt;skills/&gt;
+        &lt;sla_due/&gt;
+        &lt;software_model/&gt;
+        &lt;split_from/&gt;
+        &lt;sprint display_value="Project X"&gt;ad21d748932b02100580f55a7bba107f&lt;/sprint&gt;
+        &lt;sprint_index&gt;300000&lt;/sprint_index&gt;
+        &lt;start&gt;2022-10-29&lt;/start&gt;
+        &lt;start_date&gt;2022-10-29 11:58:47&lt;/start_date&gt;
+        &lt;start_date_derived_from/&gt;
+        &lt;state&gt;1&lt;/state&gt;
+        &lt;status&gt;green&lt;/status&gt;
+        &lt;story_points/&gt;
+        &lt;sub_tree_root/&gt;
+        &lt;sys_class_name&gt;rm_story&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 11:59:29&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;930f24d2473a51108c98dd1a536d436a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-07-17 19:21:46&lt;/sys_updated_on&gt;
+        &lt;task&gt;Project X implementation​STRY0019394&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0019394&lt;/task_effective_number&gt;
+        &lt;team/&gt;
+        &lt;team_index/&gt;
+        &lt;theme/&gt;
+        &lt;time_card_at_top_task&gt;false&lt;/time_card_at_top_task&gt;
+        &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
+        &lt;time_worked/&gt;
+        &lt;time_zone/&gt;
+        &lt;top_portfolio/&gt;
+        &lt;top_program/&gt;
+        &lt;top_task display_value="PRJ0010001"&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
+        &lt;type&gt;Documentation&lt;/type&gt;
+        &lt;universal_request/&gt;
+        &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
+        &lt;upon_reject&gt;cancel&lt;/upon_reject&gt;
+        &lt;urgency&gt;3&lt;/urgency&gt;
+        &lt;user_input/&gt;
+        &lt;variables/&gt;
+        &lt;version/&gt;
+        &lt;watch_list/&gt;
+        &lt;wbs/&gt;
+        &lt;wbs_order/&gt;
+        &lt;wf_activity/&gt;
+        &lt;work_duration/&gt;
+        &lt;work_effort/&gt;
+        &lt;work_end/&gt;
+        &lt;work_notes/&gt;
+        &lt;work_notes_list/&gt;
+        &lt;work_start/&gt;
+    &lt;/rm_story&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;text/csv&lt;/content_type&gt;
+        &lt;file_name&gt;ticketFullExport.csv&lt;/file_name&gt;
+        &lt;hash&gt;d3689ea4f591487005c39a6fe59b3a1c17c78981bd07fb359b7b0d386b043f18&lt;/hash&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;52922&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;5031&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 14:33:23&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;f762ddda47ba51108c98dd1a536d43f1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin.peter.kadlec&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-29 14:33:39&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;rm_story&lt;/table_name&gt;
+        &lt;table_sys_id&gt;930f24d2473a51108c98dd1a536d436a&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="ticketFullExport.csv" sys_id="f762ddda47ba51108c98dd1a536d43f1"&gt;f762ddda47ba51108c98dd1a536d43f1&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 14:33:23&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;3b62ddda47ba51108c98dd1a536d43f1&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;xV3NciO3Eb67yu/A8iUXlmuA+cMcnbIdO5UfV3Zdzm1rVhxJ3KVIFUnZ0TskD5FniR8sQ0orDoBudDeA0e7FtZYWP43+7697juurj8Pxx2+XV/uhP+72y+P5f7x9vB+Wt0O/GvbLq932OGyPy+uHzfV6sxlWy+P40/GfnP7zt/5u+PKLH9+8+fm74vxnuXpYDe8OS7X8fv2vxfF2fVh++cXb22Fxv1+P6+wPi34/LLa7xWa3vRn2i912s94OX3/5xfc//nPxzZtvfloe9w/Dcn04PFgLq+WHXb/d9u92z0tf94fj4n5zWP4wbDa7502u+uNhcdv/Oiyud/tD/3HYLk7nI9bWy6v1dvX47mpc+uf9zemyf9rtVotV//i87kiSq9uH+8X73fG4GZ7u0F8d19ubxW/Der8az/9m2K4Wt8Pm/mtkl3L5Ybi+fvfhsskP63H57+7uN7vHYXg+9+G4u78fVovfdvuP4/I0YarLshZZnBtcKHOz2w6Lu3Gd0/Kcg9cT8vx4+qG79mp3gz7rt7vtH46Lw2mPf6yv+v1qt+hv+vV2cdwtrsfzro9fL84nOOzuhtPJhs1hQA7STA7yw3d/+Wnc/q+Pi6vd3f3DmbPO19vujov3w/jwx/Fkh5E9F+NFr4bzXzcn4jzcr/rjwLl4e2Hm83bn97KJyd/tm9/69ZlhHncP+/O2yK5m5PTb7fbx3Z37pE+bf/X7f3Yfd5v//Xf1+NUoVbvVw9Uxlnm6CUUxeRXe86fN0B+GIF1V4Qucs+l2GK/RL/bD4djvj8xlcR2RxiiUatK2CE6IGHgrVwzZ/KHK6TUhOUBEkUPCarr2JzX1rGAdTbVaH/qR28bNVjSJaofRLtp7zVAipKSqxhWa8yO8LB54B8tQ0Bu1040s3nVthE8kenWDcrCjclOtaXdRbc4rh41FTnWui/CjXU5hUZEtKNrSB0+Wi+Es8NfX0/M/rR+hoidccd2fqOVvZEv8+KvjQaMMPLZBhXI1V3IoF6u2HcOgZvZpxFBduoFew9FZ1pE5i7YX1Q7Q3VndJTxnA8O1wD5RsspiF7Cd/mEiblpOjf4nWvIMV86Llp6T8Exxnw1llqHUgOkE7ueEDb+sj7ejm3Mz3uqwXPz+7/5jv8V2oNSAfwVLcUq2qkDV7KicgG6YwS8uayTS8XS65zzSj9eAXPFiiqD4b25GdaMP8n0BSiL6vjSovr+YEXEwUXo6RMg08th3km64qBQyomazXEV4EKK75GSOahJynJkjqAXyOHEIL1Wllx44i02miKSCNdH0FRjJmay0r8Nu6zmQicu0VA3qJeHKTaDWq9Z7q9DK1vNgz28AEcHUZrppwE7RgW8yuRzAFIRyqSfKZUorOs5j65daeTpemDXIydi1JnzALPY+64lLPyOIs3PWnS21dLE9KINEeMx1jee8PQ07l9dVe54RpJQ+Jw+0RL405oCUajBAxu9F61G5GYHCrju0ngJyme91CDZrCt+SP5tZjjFns1SjXMXqFEJis4CNJgKkDFv43g5RKvLNA0P0G8/rcZia3iVr4aUGUs7pyY+m8X0HXj6Iz2utl+gMmQi+x9EYxwOfy+NB7tX5pIOqcrM7DW0RPAgRsmY9iQKYFH0TWXKn1VCajpcy5/NUW7JN2bzhZVuFPY+0kKHFEjmA+ZS57G3jp2udGCDFcLUt5PQBgV+CwmrxElCusIrm9g5zb1JcToEnYgrgABw7O6emM0AyyKEIx54gi2s4nggvn/V6JZC/Bv0/X39KnrbyK49BvpZVUA1WZ7L1Vqz7ZxgJmrhUpvHCmICJiU3rG+N63gycU1oEY6AIZo46guBMHYA/EUMFKGQNXGeCg8QZs5Wd9lPkeAUzwXB1ZXAjQchKSmGHR0eMLCwjMOlqSNW/fsmrAwIk4Iax6qCz/RmnjmAHy3OyqIG8NjJWpwSQqmhf6IfFAoj/qoqCnROLfRpVKKi0ZQGlpABUVWgv8RIoo6QUGlQBaAMe3JVxDVz8JZqNBVR0cWsoWEBc61FFk1LDY6zfopg7XgnT3ZLClBUmGNch8pZTk6iiIxyc8yFC+ABM5lURLsene0pKASIf+VQstKwWFJ/ksbiycaqO8bLhRNL0qFKVZ7mY74stCBd1wwVEPmRXAeC06dPmztWhXNwi8QsKJkzwCJUymA2LwOOiV/JKv9il8gc3Shd4NBtTd+Kkz9QZ12ozP+AUzhI5KRvzyq4RexJJQupLzHile4ZKT3pmps59AnJD6dotRUMilYPlGqjIxUOM8tir9XVVRI4bO76XgvDbC6KcW90R3UFiHiyLIPiXaloQNHQoABob9AbnEe4SSUKGbKBo/ZL39jxiYvxbetLNLoyx5KOsGaBDYd9HCfevYE0fcU5TCacYobWFTTE2nvTJIsFNQ5IUmird9jQ0oojxf6sCiu0EWpsv4CccKY4XSYb1qcoSXKvOHSpKsajkt61GYF8FpPI9+zmyxS+sh0l55UMewORCAoRAVVBUIIScCygbAkpRbQpZo/TKAPYuupiObdIRZoABG+YISA0AIIL9ZRLBRgCiAWXNJ1ANVAZor4Zs9KTLABmyo3Xl0AWzlPEVWVVjpUT0OvQzY5qgboKps2w5mboNp5go6CJLIEwSjDCrpqk7f+gCJ9zg3LPx2leDTY3ykLKBwgJPTb4GGRsdxNV8RvSvakokE5gIksl7yArv8nwtxKByQJwuemmWUQWNN7KDUaCVGIIGTVYwE1GizbzRHGjIIA92msAsjoThLaotMqfKW4WRHH9SPse0+DANxG/g6Oq2dGptcPJdjNpRbeVrRiADLC2luRBJsuctqrtdtQ2D2Cni2bo1SM5YjqjZL63hZH0y5F9b36XAUnUJTpQpPMUpKdUz6iZGJbm3FAebhGYy2UYl5psk5vlMBTRLJtceDAot+iwOC3r5BsgoCfmcr/TP4EegppE4vUMZqE8rmL2RaALT4elyUXaMc5UOKEa8blOA6iB8gocKTyJpB3ZweYyQb3RXB2gPjksc1++rOjcQgLRu6iQS1XlghgwtkSwmJcZwJao4ESex0E/5UbiYQoVAjggaRmT+ug7xbDltdCQr6QDUUdJXSU2HKnxIQ85xNnqKfEQd3dgsrS7AwTzB5flDxgq/IAKnymdD1enC8llCrSGvkIzS1hjQUP9YTByhp0M/fZwWHXYJHtZgUzAjB1Zoa5ynf/gYrU9rCAWWUeco1WEHgNKkCS6DYL6g9mqEgt408l5AJeW1zahWFehBhz0+jpzZgEt6kGZWR0WrxsftCewma4s2kL2PmgqHDW+0p4ZCEiCFPmnVUW10CJpbwlv2/M8pfJKunoj28eZNUCkuzvtqFz4Nvm1KNKR1iVQFX2cuHcZvOpTzpCqIWV0BHRjFFazvUfyvgUZy9rxVFvcAg0XD+Q4R45gQeIWDFBUMwcXx17yxLlk5ovTilYk7koBr0BZGE4d6S418iadJkegw5a1K5BsEobYyweoVPI0r/6QiXdZgPEeZVdqbtYGY8kswdmgjOVTwEBC+SlzlzSuXjDZwVh0OnWCNTOubKdWlKwVcKKkNg2adSud4V5qUpeccZ+6r1JU3YCY0Y0SW/tSV/8ESqPU068s0nsHN6SlXns7IPhSGr10qcGQ5KsufB3KjKyyCEcsL/fo1MDiPkdplzOX38J/84fPkQH7gq0fxb8dnnxpoCxWA7jnapfZnzKR/Z0nXdcADhME05JLUcE063yhRI3X4awbZMnasNzJAThkNsXLq6toDhntgoIiIsSkk3fyzDcHTjUKRxK+eqYdgo2D1LSlL0pSQJ8Ys8vH1VgNEN6F4nWbExpvvCziR6Ygl3aAFEx8LLVZhjf+ZAgm6R3QPKKzJ7ZlCgzWRXraUSLz1wpWwIzfz119aKJoJHCeD/sJcnlbDLfVEWMD6mA9/vuY81ZRWMPwurddWTxGk03g4FGTTKquFYGGko8t6GywtEh215RUQeY0l7/4dGvrnrEkb14uhIWaUgXBxpsgYvMxFYQMBPuLG0ZFb+R0ovIY3DgpVG7fTbV6tjN2RQpRl6ebQBii74HVZeaBuQDg6L8vOWB2CeIF9BvNBdUwHhFUZQzu+Kun80ThZgd+6gzBjPNmQ8GSnI/qI546sOqwynLP83AF13vCgC46ht8GpZMggb1DSHfExt6QJwLoLTdFgOHECCYoYBR5DLmLKRuK3c//89z+e93nxLPTyl1GpElcYheL9MKqdm32/Gi5o3BPtTrteNNPdejuy+tOOH3bvL/tN5u/q5Q/94XnJ1ShadC/N0+/e9+OP4nafDOTwdgeyEjf7oT8uF+8fjqPwPmxWp99d343E/nXcflQLo517XAx3/XrzSYY3449sAbb2v4zP0s/ad3HsDx+RbyUmX7e6PK53WV8hPf348LA9DMdxs+G3UfkBi77UeJ85Bh3l6DHL25Epx+uNhN1dnxQrsHhzWfznp3/of2XNIwt20nZC7bcnMpMazV2a86ZmytHTR8VpnCJA3YVCIAPDtzvcfuLf/XC/6a+476EKlIWwTCrAS29O5HzYDNgmyn0obO3oa2iYFVxmlb28wsR5sjh4YrnWrDAmw+Ft9hNwiFRPteNZth3LLNKHqFgqSMhDGpBUSdPPv9vkwfBV8LOg63NlXE4kMSd0MCfbSXtPzRASqIvJqpBWD5hjUMif4mZ7j5CUE/KCPYyeynWyN4Hugpptf1ZYjNHTEzvtqxHIeZ2Xx7Rr4v28EHxXjtK8YDhRnRnj/EAM11pS+6JpMA831rhMPhb/zNhM1hNySYcpuZDuTHE1ysIzCA5iB3wpxl3KUBiQqHqA3bR/DzcBFH2T0noV15zZMFuR2FKXqlBH0FZLsWxdWu4ApLDTNROmccvGCUvFvi1FPdRjYMYIn1iPFfUZVHJ9oEoMD3bUS2XQ21UB6+3s6vQylVNmIFiXCPgLSb6uODIvA2EcqF/5zlxVefbIq9RGP049VdyWKgVP/eK6iwnULLGIhzGmJkKIqvbyIqQRfwUGMc5xMInOp3SrjhIOlhvNkcPaizeoOJbvxwCeYG25G2DMGUhb4ZkwDWarLoIQY5mmQMwoy3R5CSoim34tPVbGhFaknoQWLEOI5i+g+1CJBcgMIuQCjo6kEwMeN7WiK+NzZPAuuMqQo53gp3KevSk8DyUhA335UrmfrKBsJ+u0GnyXnKFVg4QNlBjgNKkIwcqQwWlq1Gnhx2wJ5YwG9QnCeUNO3WEq3GzdQb+KK+Gc+BlfrcOKdXhxhHH3lpXjD7p3HKlqFVH8wvQBW0NfhlRa9jh93RKzk0mKU8z/bYVQkNUtIKyd1ZRA4NOvRVTgGPYpvhHPdrwAs9P2B2jRxlgv8euiWQJBpU2+60SnROYuWUXSgmZdWk7lnr9RgEqAcICge8W6mVdaxHV89CuZkrDuEj+dwfHGrjfalXi2iw6sWxN1JslbQM/dOJ5hBq4CbtHizlvw3Qk7Y4xLHdbxMRVuPHfBrRPExKcXACEzSTBLQNFRzkTIH2RtQGYK4zMwDEHpUJcjlLQQXRCHFISqffzsQldD3iqRHOGQpiHqyIL4mUWoFsUkxXkccsiPoY1YGNlAyTRaWmTHjiy8TIHrjngXlrczpi8I9JoEPlNoz/gQkR7v6GWoHoJHfhToaooOhHzaOdTa6cvd4GWkz89Jz54/5c2tMuPgE9a1IB3B0XfkIxnQ1cgg86rwkEQ+FDt7JKdUgdtVMNsQrbeVBSv0Qli6HMbbRNMYQKbsg+QqHSPKT7TJPH7r2914+mQWZ04pq6roZ0OT8vanr3wDfPBqWIbJ171DNecoGVaGHe+wNKbCiwVoajrEZxBL6xCQIHt+Q2nlJfPnA+UoC5CIwuPj1Y0OpCI/T6H6/NluBxIgxNCQRPWRSPMAk3UD6qEMEB11mSyJenHz6FZtYN1KlDZY6kJ3gNsjdeVEEUSJRxAM1BvFaKXieFvxNrbEnIUghkaYaj19z5uAK+eCak0+6g2kmPL5JjYUMZjuSdPokL0qEcByQshC8qFfcMhc4n76NjhVS82oWssAuChWY3BYp/IaHAMcGtOsA7FMpTB4U8bCGeuZK7g6QTvV+EtWMHSBaN2RdzxZ8Uhs8M4jEljr5Pc1PtMK5AQw9oiHAJw/Fw56z8w+sMDKhk6RUaonsHq3xHMxVCpLzj3Tz3/jKZns7n8dciByq9RaRwRS/Py9spGIbj9ghB9fV160mlZIYUl3XQc4Dyo/Sll7CjsM9KBFtLedPgwulRqRO10zKgs8I4lfAU8ppBexVFOEk9hx/lfDnVKAhxoBm9AgcpuyZClAkkr5u8HAAHQKlSQ0AgfOg0zl+IdNwysMMUpgcivV2B2KHDy0hItN1KiAqBxrY1UQ2cMmOB5PAJ5Ie2biJ2mDos+G2zB5ApLlVsMuIy1tARqWoOWNaXpQbYV3puSod7Z2sJ+xo5KVnm7pxqNw5MTROi3Rfhiu7LF2QOP7mSvtU0AhBpWNppspcLqlyMcUJojC0qIUo0FTfpHcBPGs8T314PJ0MGiqfOmalDjO1HGOjSRFNAUNcqCp0TJp8EIgA8kfQTzjsUWaKTZWEJ8+oGny+WwKZBf5tp0VkLuTf7LH/9MPZROJaqGGCgACI/phA/uEZoZlyrJD29Z+cx0zlQUpxM5qGBC0KeN0EY8Yki3PAf/ziypkbqdDW4nQzjOe+vk/B8mQSrrOAAA=&lt;/data&gt;
+        &lt;length&gt;6696&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="ticketFullExport.csv" sys_id="f762ddda47ba51108c98dd1a536d43f1"&gt;f762ddda47ba51108c98dd1a536d43f1&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 14:33:23&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;bb62ddda47ba51108c98dd1a536d43f1&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;text/csv&lt;/content_type&gt;
+        &lt;file_name&gt;userExport.csv&lt;/file_name&gt;
+        &lt;hash&gt;1b9680d1a159f73a88523d4600a4a8ab298b0396e43707698dcb7f8986445f40&lt;/hash&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;525&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;252&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 18:49:24&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4a0dc2d247fe51108c98dd1a536d4352&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-29 18:49:25&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;rm_story&lt;/table_name&gt;
+        &lt;table_sys_id&gt;930f24d2473a51108c98dd1a536d436a&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="userExport.csv" sys_id="4a0dc2d247fe51108c98dd1a536d4352"&gt;4a0dc2d247fe51108c98dd1a536d4352&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 18:49:24&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;8a0dc2d247fe51108c98dd1a536d4352&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;jVBLasQwDN0PzB18AOEzFJJNA0MXc4AgbKVxassQxx1y+0rO0MWQQlfvYz2h51pofe+BMRFQwhABnaNSrpclIzOOGYZGzMeDGA7TZuFvOl22Ok3W5QRVFkmIpmlcYBAwQ113UMMuwk7HXWC/jw46RdNRzLVAM61r4jTlq6exQC9g7nUlUMMWYec35Zl5H5MUUWJudduyVlFlU1P/C4bPSvE32NT5gaQ5D72i6TN/hy1Dc60/1EsOfQp8vSRcv6TZTcDckf0juBnUtOWpXnIbuZmDCyhhhynEiPqdBzMdrrFI1eeLdYf+c8cPoH0Q1g0CAAA=&lt;/data&gt;
+        &lt;length&gt;324&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="userExport.csv" sys_id="4a0dc2d247fe51108c98dd1a536d4352"&gt;4a0dc2d247fe51108c98dd1a536d4352&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-29 18:49:24&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;0e0dc2d247fe51108c98dd1a536d4352&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:34:40</sys_created_on>
+        <sys_id>85e3fc2ec3330210627432f1b4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project X implementation</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_85e3fc2ec3330210627432f1b4013194</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:34:40</sys_updated_on>
+        <tablename>rm_story</tablename>
+    </sys_metadata_link>
+</record_update>

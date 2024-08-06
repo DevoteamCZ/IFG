@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dc6d33f147e9dd108c98dd1a536d43ff</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
+    &lt;rm_story action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;Mapping has been proposed&lt;br /&gt;First version of API documentation has been delivered.&lt;/p&gt;
+&lt;p&gt;Architect notes:&lt;br /&gt;- study how incidents work in ServiceNow and find common logic between them and the complaints in System X (for example fulfilled -&amp;gt; status)&lt;br /&gt;- for documentation use swaggerhub and define each endpoint on each side and the necessary fields in the payloads and examples&lt;/p&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_due/&gt;
+        &lt;additional_assignee_list/&gt;
+        &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
+        &lt;approval&gt;not requested&lt;/approval&gt;
+        &lt;approval_history/&gt;
+        &lt;approval_set/&gt;
+        &lt;assigned_to/&gt;
+        &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
+        &lt;backlog_type&gt;product&lt;/backlog_type&gt;
+        &lt;blocked&gt;false&lt;/blocked&gt;
+        &lt;blocked_reason/&gt;
+        &lt;business_duration/&gt;
+        &lt;business_service/&gt;
+        &lt;calculation_type&gt;automatic&lt;/calculation_type&gt;
+        &lt;calendar_duration/&gt;
+        &lt;classification&gt;Feature&lt;/classification&gt;
+        &lt;close_notes/&gt;
+        &lt;closed_at/&gt;
+        &lt;closed_by/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;comments/&gt;
+        &lt;comments_and_work_notes/&gt;
+        &lt;company/&gt;
+        &lt;constraint_date/&gt;
+        &lt;contact_type/&gt;
+        &lt;contract/&gt;
+        &lt;correlation_display/&gt;
+        &lt;correlation_id/&gt;
+        &lt;critical_path&gt;false&lt;/critical_path&gt;
+        &lt;defect/&gt;
+        &lt;delivery_plan/&gt;
+        &lt;delivery_task/&gt;
+        &lt;demand/&gt;
+        &lt;dependency/&gt;
+        &lt;description&gt;Hello,&amp;#13;
+the System X has been developed a long time ago with different concepts in mind than current systems support. It's easier in its structure as well in its functionality.&amp;#13;
+Your architect has sent me a bunch of questions and I will try to answer them today.&amp;#13;
+&amp;#13;
+Users:&amp;#13;
+- these are created manually by our IT department in System X&amp;#13;
+- we want to keep System X going and we want to be able to create users in one of the systems whilst having them synchronized in both&amp;#13;
+- roles can be : admin - can create other users, user - can log tickets and write notes into them, technician - can process tickets&amp;#13;
+&amp;#13;
+Ticket type:&amp;#13;
+- we have different kinds of tickets in this system, some are for improvements, some are complaints&amp;#13;
+- right now we only want to synchronise complaints with ServiceNow&amp;#13;
+&amp;#13;
+Ticket:&amp;#13;
+- your architect has asked us if we could extend the table to store some kind of external ID from ServiceNow and we can confirm that we can do so&amp;#13;
+- header -&amp;gt; this is a small description of the ticket&amp;#13;
+- content -&amp;gt; full text content of the ticket&amp;#13;
+- fulfilled - &amp;gt; true/false is filled in when the technician closes the ticket&amp;#13;
+- we currently have 500 tickets, 300 of those are closed complaints -&amp;gt; we would like to import these complaints into the system as well&amp;#13;
+&amp;#13;
+Architect commentary:&amp;#13;
+- there are several ways to synchronise users -&amp;gt; here we can ask the customer if they would be okay with their employees to login to ServiceNow, so that users are managed in one place + we will have to sync these users via another endpoint&amp;#13;
+- admin role -&amp;gt; could be a role in our system which grants users the possibility to create users, user -&amp;gt; user doesn't need a role in ServiceNow to submit an incident, technician -&amp;gt; this sounds like the itil role in ServiceNow&amp;#13;
+- since the requirement is to only synchronise complaints, we can probably just synchronise them with incidents in ServiceNow (we need to confirm, that complaint = incident with the customer)&amp;#13;
+- we need to be careful about the data types -&amp;gt; some fields might containt UTF-8 characters or their lenght might be different from our fields&lt;/description&gt;
+        &lt;due_date/&gt;
+        &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
+        &lt;effort/&gt;
+        &lt;end&gt;2022-08-27&lt;/end&gt;
+        &lt;end_date&gt;2022-08-27 10:24:49&lt;/end_date&gt;
+        &lt;end_date_derived_from/&gt;
+        &lt;enhancement/&gt;
+        &lt;epic display_value="Project X"&gt;66190f4c93e702100580f55a7bba10f7&lt;/epic&gt;
+        &lt;escalation&gt;0&lt;/escalation&gt;
+        &lt;expected_start/&gt;
+        &lt;follow_up/&gt;
+        &lt;global_rank&gt;4211100000&lt;/global_rank&gt;
+        &lt;group_list/&gt;
+        &lt;group_rank/&gt;
+        &lt;has_conflict&gt;false&lt;/has_conflict&gt;
+        &lt;html_description/&gt;
+        &lt;impact&gt;2&lt;/impact&gt;
+        &lt;key_milestone&gt;false&lt;/key_milestone&gt;
+        &lt;knowledge&gt;false&lt;/knowledge&gt;
+        &lt;level/&gt;
+        &lt;location/&gt;
+        &lt;made_sla&gt;true&lt;/made_sla&gt;
+        &lt;milestone&gt;false&lt;/milestone&gt;
+        &lt;model_id/&gt;
+        &lt;mpp_task_id/&gt;
+        &lt;number&gt;STRY0019326&lt;/number&gt;
+        &lt;opened_at&gt;2022-08-27 10:24:49&lt;/opened_at&gt;
+        &lt;opened_by display_value=""&gt;86a02d641b52451058592024b24bcb07&lt;/opened_by&gt;
+        &lt;order/&gt;
+        &lt;orig_sys_id/&gt;
+        &lt;orig_top_task_id/&gt;
+        &lt;override_status&gt;false&lt;/override_status&gt;
+        &lt;parent display_value="SPNT0010007"&gt;ad21d748932b02100580f55a7bba107f&lt;/parent&gt;
+        &lt;parent_feature/&gt;
+        &lt;percent_complete&gt;0&lt;/percent_complete&gt;
+        &lt;phase_type/&gt;
+        &lt;primary_goal/&gt;
+        &lt;priority&gt;4&lt;/priority&gt;
+        &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
+        &lt;product_rank/&gt;
+        &lt;product_rel_index&gt;1500000&lt;/product_rel_index&gt;
+        &lt;project display_value="Integration Onboarding Programme"&gt;20a707c893e702100580f55a7bba10fa&lt;/project&gt;
+        &lt;project_index&gt;1700000&lt;/project_index&gt;
+        &lt;project_phase display_value="Agile Phase"&gt;35288bc893e702100580f55a7bba1092&lt;/project_phase&gt;
+        &lt;rank/&gt;
+        &lt;reassignment_count&gt;1&lt;/reassignment_count&gt;
+        &lt;rejection_goto/&gt;
+        &lt;relation_applied/&gt;
+        &lt;release/&gt;
+        &lt;release_index/&gt;
+        &lt;remaining_duration/&gt;
+        &lt;remaining_effort/&gt;
+        &lt;rollup&gt;false&lt;/rollup&gt;
+        &lt;route_reason/&gt;
+        &lt;run_calc_brs&gt;true&lt;/run_calc_brs&gt;
+        &lt;schedule_end_date&gt;2022-08-27 10:24:49&lt;/schedule_end_date&gt;
+        &lt;schedule_start_date&gt;2022-08-27 10:24:49&lt;/schedule_start_date&gt;
+        &lt;service_offering/&gt;
+        &lt;shadow&gt;false&lt;/shadow&gt;
+        &lt;short_description&gt;Project X technical analysis&lt;/short_description&gt;
+        &lt;skills/&gt;
+        &lt;sla_due/&gt;
+        &lt;software_model/&gt;
+        &lt;split_from/&gt;
+        &lt;sprint display_value="Project X"&gt;ad21d748932b02100580f55a7bba107f&lt;/sprint&gt;
+        &lt;sprint_index&gt;200000&lt;/sprint_index&gt;
+        &lt;start&gt;2022-08-27&lt;/start&gt;
+        &lt;start_date&gt;2022-08-27 10:24:49&lt;/start_date&gt;
+        &lt;start_date_derived_from/&gt;
+        &lt;state&gt;1&lt;/state&gt;
+        &lt;status&gt;green&lt;/status&gt;
+        &lt;story_points/&gt;
+        &lt;sub_tree_root/&gt;
+        &lt;sys_class_name&gt;rm_story&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin.peter.kadlec&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-08-27 10:25:55&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;dc6d33f147e9dd108c98dd1a536d43ff&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-07-17 19:21:42&lt;/sys_updated_on&gt;
+        &lt;task&gt;Project X technical analysis​STRY0019326&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0019326&lt;/task_effective_number&gt;
+        &lt;team/&gt;
+        &lt;team_index/&gt;
+        &lt;theme/&gt;
+        &lt;time_card_at_top_task&gt;false&lt;/time_card_at_top_task&gt;
+        &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
+        &lt;time_worked/&gt;
+        &lt;time_zone/&gt;
+        &lt;top_portfolio/&gt;
+        &lt;top_program/&gt;
+        &lt;top_task display_value="PRJ0010001"&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
+        &lt;type&gt;Documentation&lt;/type&gt;
+        &lt;universal_request/&gt;
+        &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
+        &lt;upon_reject&gt;cancel&lt;/upon_reject&gt;
+        &lt;urgency&gt;3&lt;/urgency&gt;
+        &lt;user_input/&gt;
+        &lt;variables/&gt;
+        &lt;version/&gt;
+        &lt;watch_list/&gt;
+        &lt;wbs/&gt;
+        &lt;wbs_order/&gt;
+        &lt;wf_activity/&gt;
+        &lt;work_duration/&gt;
+        &lt;work_effort/&gt;
+        &lt;work_end/&gt;
+        &lt;work_notes/&gt;
+        &lt;work_notes_list/&gt;
+        &lt;work_start/&gt;
+    &lt;/rm_story&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:34:40</sys_created_on>
+        <sys_id>05e3fc2ec3330210627432f1b40131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project X technical analysis</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_05e3fc2ec3330210627432f1b40131a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:34:40</sys_updated_on>
+        <tablename>rm_story</tablename>
+    </sys_metadata_link>
+</record_update>

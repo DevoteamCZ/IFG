@@ -38,7 +38,6 @@
         &lt;defect/&gt;
         &lt;delivery_plan/&gt;
         &lt;delivery_task/&gt;
-        &lt;demand/&gt;
         &lt;dependency/&gt;
         &lt;description/&gt;
         &lt;due_date/&gt;
@@ -58,6 +57,7 @@
         &lt;has_conflict&gt;false&lt;/has_conflict&gt;
         &lt;html_description/&gt;
         &lt;impact&gt;3&lt;/impact&gt;
+        &lt;improvement/&gt;
         &lt;key_milestone&gt;false&lt;/key_milestone&gt;
         &lt;knowledge&gt;false&lt;/knowledge&gt;
         &lt;level/&gt;
@@ -73,18 +73,14 @@
         &lt;orig_sys_id/&gt;
         &lt;orig_top_task_id/&gt;
         &lt;override_status&gt;false&lt;/override_status&gt;
-        &lt;parent display_value="SPNT0010001"&gt;47bc47c0932b02100580f55a7bba10c1&lt;/parent&gt;
+        &lt;parent/&gt;
         &lt;parent_feature/&gt;
         &lt;percent_complete&gt;0&lt;/percent_complete&gt;
-        &lt;phase_type/&gt;
         &lt;primary_goal/&gt;
         &lt;priority&gt;4&lt;/priority&gt;
         &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
         &lt;product_rank/&gt;
         &lt;product_rel_index&gt;1100000&lt;/product_rel_index&gt;
-        &lt;project display_value="Integration Onboarding Programme"&gt;20a707c893e702100580f55a7bba10fa&lt;/project&gt;
-        &lt;project_index&gt;100000&lt;/project_index&gt;
-        &lt;project_phase/&gt;
         &lt;rank/&gt;
         &lt;reassignment_count&gt;2&lt;/reassignment_count&gt;
         &lt;rejection_goto/&gt;
@@ -105,12 +101,12 @@
         &lt;sla_due/&gt;
         &lt;software_model/&gt;
         &lt;split_from/&gt;
-        &lt;sprint display_value="Basics"&gt;47bc47c0932b02100580f55a7bba10c1&lt;/sprint&gt;
-        &lt;sprint_index&gt;100000&lt;/sprint_index&gt;
+        &lt;sprint/&gt;
+        &lt;sprint_index&gt;-1&lt;/sprint_index&gt;
         &lt;start&gt;2022-02-24&lt;/start&gt;
         &lt;start_date&gt;2022-02-24 14:13:38&lt;/start_date&gt;
         &lt;start_date_derived_from/&gt;
-        &lt;state&gt;1&lt;/state&gt;
+        &lt;state&gt;-6&lt;/state&gt;
         &lt;status&gt;green&lt;/status&gt;
         &lt;story_points&gt;2&lt;/story_points&gt;
         &lt;sub_tree_root/&gt;
@@ -120,21 +116,16 @@
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;4a3dc93e2f3d0110152459a72799b632&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-08-06 12:08:19&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-08-15 10:59:07&lt;/sys_updated_on&gt;
         &lt;task&gt;Load Companies from Excel​STRY0010008&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0010008&lt;/task_effective_number&gt;
-        &lt;team/&gt;
-        &lt;team_index/&gt;
         &lt;theme/&gt;
-        &lt;time_card_at_top_task&gt;false&lt;/time_card_at_top_task&gt;
         &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
         &lt;time_worked/&gt;
         &lt;time_zone/&gt;
-        &lt;top_portfolio/&gt;
-        &lt;top_program/&gt;
-        &lt;top_task display_value="PRJ0010001"&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
+        &lt;top_task display_value=""&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
         &lt;type&gt;Development&lt;/type&gt;
         &lt;universal_request/&gt;
         &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
@@ -160,14 +151,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 12:34:39</sys_created_on>
         <sys_id>f8e3fc2ec3330210627432f1b401317f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Load Companies from Excel</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_f8e3fc2ec3330210627432f1b401317f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 12:34:39</sys_updated_on>
+        <sys_updated_on>2024-08-15 10:59:27</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

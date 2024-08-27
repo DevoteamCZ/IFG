@@ -66,7 +66,6 @@
         <override_status>false</override_status>
         <parent/>
         <percent_complete>0</percent_complete>
-        <phase_type>waterfall</phase_type>
         <points/>
         <priority>4</priority>
         <reassignment_count>0</reassignment_count>
@@ -85,7 +84,7 @@
         <schedule_start_date>2024-08-16 19:02:14</schedule_start_date>
         <service_offering/>
         <shadow>false</shadow>
-        <short_description>Standart APIs</short_description>
+        <short_description>Standard APIs</short_description>
         <skills/>
         <sla_due/>
         <software_model/>
@@ -102,18 +101,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f7a09f08932b02100580f55a7bba1038</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-17 19:19:39</sys_updated_on>
-        <task>Standart APIs​SPNT0010005</task>
+        <sys_updated_on>2024-08-16 11:14:54</sys_updated_on>
+        <task>Standard APIs​SPNT0010005</task>
         <task_effective_number>SPNT0010005</task_effective_number>
         <team_points>0</team_points>
-        <time_card_at_top_task>false</time_card_at_top_task>
         <time_constraint>asap</time_constraint>
         <time_worked/>
         <time_zone/>
-        <top_portfolio/>
-        <top_program/>
         <top_task display_value="SPNT0010005">f7a09f08932b02100580f55a7bba1038</top_task>
         <universal_request/>
         <upon_approval>proceed</upon_approval>
@@ -140,14 +136,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 12:37:14</sys_created_on>
         <sys_id>fa7430aec3330210627432f1b4013114</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Standart APIs</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard APIs</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_fa7430aec3330210627432f1b4013114</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 12:37:14</sys_updated_on>
+        <sys_updated_on>2024-08-16 11:15:27</sys_updated_on>
         <tablename>rm_sprint</tablename>
     </sys_metadata_link>
 </record_update>

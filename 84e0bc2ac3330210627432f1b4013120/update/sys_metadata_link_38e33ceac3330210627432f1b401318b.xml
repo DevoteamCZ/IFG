@@ -55,10 +55,10 @@
         &lt;defect/&gt;
         &lt;delivery_plan/&gt;
         &lt;delivery_task/&gt;
-        &lt;demand/&gt;
         &lt;dependency/&gt;
-        &lt;description&gt;Link to documentation: https://developer.servicenow.com/dev.do#!/reference/api/sandiego/rest/c_TableAPI#table-GET-id&amp;#13;
-                                                 https://docs.servicenow.com/bundle/paris-application-development/page/integrate/inbound-rest/concept/c_TableAPI.html#d128814e553&amp;#13;
+        &lt;description&gt;Knowledge article for REST API explorer where table API is also explained - https://docs.google.com/document/d/18MdZAlD6jRJlwX0-IMe859G-uHpWePVKxVh4bnam5o4/edit&amp;#13;
+Knowledge article for Postman - https://docs.google.com/document/d/14OOVpql9MWr7Trh2VX3AEctCPheoFuKNh9UfqJgWIF8/edit#heading=h.7t7vmdp9kqdp&amp;#13;
+&amp;#13;
 &amp;#13;
 Within the Postman tool, try to get specific info about you from the devowaydev instance (https://devowaydev.service-now.com) from User table. Returned fields should be only name and company. For each of these fields is needed both actual and display values.&amp;#13;
 TIP:&amp;#13;
@@ -81,6 +81,7 @@ TIP:&amp;#13;
         &lt;has_conflict&gt;false&lt;/has_conflict&gt;
         &lt;html_description/&gt;
         &lt;impact&gt;2&lt;/impact&gt;
+        &lt;improvement/&gt;
         &lt;key_milestone&gt;false&lt;/key_milestone&gt;
         &lt;knowledge&gt;false&lt;/knowledge&gt;
         &lt;level/&gt;
@@ -99,15 +100,11 @@ TIP:&amp;#13;
         &lt;parent display_value="SPNT0010004"&gt;0c0f0b44932b02100580f55a7bba105d&lt;/parent&gt;
         &lt;parent_feature/&gt;
         &lt;percent_complete&gt;0&lt;/percent_complete&gt;
-        &lt;phase_type/&gt;
         &lt;primary_goal/&gt;
         &lt;priority&gt;4&lt;/priority&gt;
         &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
         &lt;product_rank/&gt;
         &lt;product_rel_index&gt;1600000&lt;/product_rel_index&gt;
-        &lt;project display_value="Integration Onboarding Programme"&gt;20a707c893e702100580f55a7bba10fa&lt;/project&gt;
-        &lt;project_index&gt;1400000&lt;/project_index&gt;
-        &lt;project_phase display_value="Agile Phase"&gt;35288bc893e702100580f55a7bba1092&lt;/project_phase&gt;
         &lt;rank/&gt;
         &lt;reassignment_count&gt;1&lt;/reassignment_count&gt;
         &lt;rejection_goto/&gt;
@@ -143,21 +140,16 @@ TIP:&amp;#13;
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;01f7d5c31bcf8910ac105391604bcbeb&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-07-17 19:12:58&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-08-29 18:29:35&lt;/sys_updated_on&gt;
         &lt;task&gt;Use Postman to get your data from sys_user table through REST Table API​STRY0018826&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0018826&lt;/task_effective_number&gt;
-        &lt;team/&gt;
-        &lt;team_index/&gt;
         &lt;theme/&gt;
-        &lt;time_card_at_top_task&gt;false&lt;/time_card_at_top_task&gt;
         &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
         &lt;time_worked/&gt;
         &lt;time_zone/&gt;
-        &lt;top_portfolio/&gt;
-        &lt;top_program/&gt;
-        &lt;top_task display_value="PRJ0010001"&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
+        &lt;top_task display_value=""&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
         &lt;type&gt;Development&lt;/type&gt;
         &lt;universal_request/&gt;
         &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
@@ -183,14 +175,14 @@ TIP:&amp;#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 12:34:39</sys_created_on>
         <sys_id>38e33ceac3330210627432f1b401318b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Use Postman to get your data from sys_user table through REST Table API</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_38e33ceac3330210627432f1b401318b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 12:34:39</sys_updated_on>
+        <sys_updated_on>2024-08-29 18:32:06</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

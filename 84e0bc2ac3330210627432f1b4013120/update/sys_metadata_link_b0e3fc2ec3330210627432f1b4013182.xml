@@ -39,8 +39,7 @@
         &lt;delivery_plan/&gt;
         &lt;delivery_task/&gt;
         &lt;dependency/&gt;
-        &lt;description&gt;Links to documentation: &amp;#13;
-flow designer - https://docs.google.com/document/d/1rkkh9sLBNejHDVgXcZF4wm-Q80JW4yErhyxcc2yrmms/edit&amp;#13;
+        &lt;description&gt;Knowledge article for flow designer - https://docs.google.com/document/d/1rkkh9sLBNejHDVgXcZF4wm-Q80JW4yErhyxcc2yrmms/edit&amp;#13;
 (use flow trigger email)&amp;#13;
 &amp;#13;
 As a user, I want to send an email with the description of my problems with the PC to your developer instance mailbox so the new incident is created and someone can help me.&amp;#13;
@@ -55,7 +54,7 @@ Create a new Flow for the action Create new incident from mail&amp;#13;
 - urgency - 2-Medium&amp;#13;
 - assignment group - Support 2nd level (create group if it doesn't exist)&amp;#13;
 &amp;#13;
-For testing purposes - developer instances are not able to receive emails - simulate email creation in sys_email table.&amp;#13;
+For testing purposes - developer instances are not able to receive emails - simulate email creation in sys_email table by inserting an entry there and triggering the flow.&amp;#13;
 &amp;#13;
 &lt;/description&gt;
         &lt;due_date/&gt;
@@ -134,9 +133,9 @@ For testing purposes - developer instances are not able to receive emails - simu
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;5b175db22f7d0110152459a72799b6b7&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-08-23 11:16:48&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-08-29 18:11:40&lt;/sys_updated_on&gt;
         &lt;task&gt;Create Incident ticket based on inbound Email utilising "Flow"​STRY0010020&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0010020&lt;/task_effective_number&gt;
         &lt;theme/&gt;
@@ -169,14 +168,14 @@ For testing purposes - developer instances are not able to receive emails - simu
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 12:34:39</sys_created_on>
         <sys_id>b0e3fc2ec3330210627432f1b4013182</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Create Incident ticket based on inbound Email utilising "Flow"</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_b0e3fc2ec3330210627432f1b4013182</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-23 11:17:02</sys_updated_on>
+        <sys_updated_on>2024-08-29 18:32:06</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

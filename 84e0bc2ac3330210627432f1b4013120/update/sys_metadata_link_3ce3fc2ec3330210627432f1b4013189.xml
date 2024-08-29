@@ -56,11 +56,11 @@
         &lt;defect/&gt;
         &lt;delivery_plan/&gt;
         &lt;delivery_task/&gt;
-        &lt;demand/&gt;
         &lt;dependency/&gt;
-        &lt;description&gt;Link to documentation: https://docs.servicenow.com/bundle/paris-application-development/page/integrate/inbound-rest/concept/c_TableAPI.html#table-POST&amp;#13;
+        &lt;description&gt;Knowledge article for REST API explorer where table API is also explained - https://docs.google.com/document/d/18MdZAlD6jRJlwX0-IMe859G-uHpWePVKxVh4bnam5o4/edit&amp;#13;
+Knowledge article for Postman - https://docs.google.com/document/d/14OOVpql9MWr7Trh2VX3AEctCPheoFuKNh9UfqJgWIF8/edit#heading=h.7t7vmdp9kqdp&amp;#13;
 &amp;#13;
-Create for yourself a new personal computer (table =cmdb_ci_pc_hardware ) in the database with the following filled fields: &amp;#13;
+Create for yourself a new personal computer (table =cmdb_ci_pc_hardware ) in devowaydev.service-now.com via the table API via REST with the following filled fields: &amp;#13;
 - name: format of the value: first 3 letters of your first name + "PC", e.g.KATPC&amp;#13;
 - company:  hardcoded value Devoteam CZ&amp;#13;
 - serial_number: format - 7 digits&amp;#13;
@@ -87,6 +87,7 @@ In the response should be only the following fields: name, company, serial_numbe
         &lt;has_conflict&gt;false&lt;/has_conflict&gt;
         &lt;html_description/&gt;
         &lt;impact&gt;3&lt;/impact&gt;
+        &lt;improvement/&gt;
         &lt;key_milestone&gt;false&lt;/key_milestone&gt;
         &lt;knowledge&gt;false&lt;/knowledge&gt;
         &lt;level/&gt;
@@ -105,15 +106,11 @@ In the response should be only the following fields: name, company, serial_numbe
         &lt;parent display_value="SPNT0010004"&gt;0c0f0b44932b02100580f55a7bba105d&lt;/parent&gt;
         &lt;parent_feature/&gt;
         &lt;percent_complete&gt;0&lt;/percent_complete&gt;
-        &lt;phase_type/&gt;
         &lt;primary_goal/&gt;
         &lt;priority&gt;4&lt;/priority&gt;
         &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
         &lt;product_rank/&gt;
         &lt;product_rel_index&gt;1800000&lt;/product_rel_index&gt;
-        &lt;project display_value="Integration Onboarding Programme"&gt;20a707c893e702100580f55a7bba10fa&lt;/project&gt;
-        &lt;project_index&gt;800000&lt;/project_index&gt;
-        &lt;project_phase display_value="Agile Phase"&gt;35288bc893e702100580f55a7bba1092&lt;/project_phase&gt;
         &lt;rank/&gt;
         &lt;reassignment_count&gt;2&lt;/reassignment_count&gt;
         &lt;rejection_goto/&gt;
@@ -149,21 +146,16 @@ In the response should be only the following fields: name, company, serial_numbe
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;7593d5722f7d0110152459a72799b65c&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-07-17 19:12:49&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-08-29 18:28:40&lt;/sys_updated_on&gt;
         &lt;task&gt;Use Postman to load "Personal Computers" into the CMDB through REST Table API​STRY0010017&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0010017&lt;/task_effective_number&gt;
-        &lt;team/&gt;
-        &lt;team_index/&gt;
         &lt;theme/&gt;
-        &lt;time_card_at_top_task&gt;false&lt;/time_card_at_top_task&gt;
         &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
         &lt;time_worked/&gt;
         &lt;time_zone/&gt;
-        &lt;top_portfolio/&gt;
-        &lt;top_program/&gt;
-        &lt;top_task display_value="PRJ0010001"&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
+        &lt;top_task display_value=""&gt;20a707c893e702100580f55a7bba10fa&lt;/top_task&gt;
         &lt;type&gt;Development&lt;/type&gt;
         &lt;universal_request/&gt;
         &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
@@ -189,14 +181,14 @@ In the response should be only the following fields: name, company, serial_numbe
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 12:34:39</sys_created_on>
         <sys_id>3ce3fc2ec3330210627432f1b4013189</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Use Postman to load "Personal Computers" into the CMDB through REST Table API</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_3ce3fc2ec3330210627432f1b4013189</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 12:34:39</sys_updated_on>
+        <sys_updated_on>2024-08-29 18:32:06</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

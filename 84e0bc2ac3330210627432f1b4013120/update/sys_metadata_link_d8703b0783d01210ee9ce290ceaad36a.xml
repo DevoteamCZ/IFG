@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>933d430b83101210ee9ce290ceaad3ed</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story">
+    <rm_story action="INSERT_OR_UPDATE">
+        <acceptance_criteria/>
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <allow_dates_outside_schedule>false</allow_dates_outside_schedule>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme">ca8c03c0932b02100580f55a7bba10e7</assignment_group>
+        <backlog_type>product</backlog_type>
+        <blocked>false</blocked>
+        <blocked_reason/>
+        <business_duration/>
+        <business_service/>
+        <calculation_type>automatic</calculation_type>
+        <calendar_duration/>
+        <classification>Feature</classification>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <constraint_date/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <critical_path>false</critical_path>
+        <defect/>
+        <delivery_plan/>
+        <delivery_task/>
+        <dependency/>
+        <description>Setup inbound REST API using DIP platform to be able to use Postman to create or update incidents in ServiceNow</description>
+        <due_date/>
+        <duration>1970-01-02 00:00:00</duration>
+        <effort/>
+        <end>2024-09-02</end>
+        <end_date>2024-09-02 09:33:01</end_date>
+        <end_date_derived_from/>
+        <enhancement/>
+        <epic display_value="Data Integration Platform">39398b0c93e702100580f55a7bba1007</epic>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <global_rank>4000200000</global_rank>
+        <group_list/>
+        <group_rank/>
+        <has_conflict>false</has_conflict>
+        <html_description/>
+        <impact>3</impact>
+        <is_enabler>false</is_enabler>
+        <key_milestone>false</key_milestone>
+        <knowledge>false</knowledge>
+        <level/>
+        <location/>
+        <made_sla>true</made_sla>
+        <milestone>false</milestone>
+        <model_id/>
+        <mpp_task_id/>
+        <number>STRY0010002</number>
+        <opened_at>2024-09-02 09:33:01</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order>300</order>
+        <orig_sys_id/>
+        <orig_top_task_id/>
+        <override_status>false</override_status>
+        <parent display_value="SPNT0010006">48d09f08932b02100580f55a7bba10e9</parent>
+        <parent_feature/>
+        <percent_complete>0</percent_complete>
+        <prereq/>
+        <primary_goal/>
+        <priority>4</priority>
+        <product display_value="Integration Onboarding Programme">3398874c93e702100580f55a7bba10c0</product>
+        <product_rank/>
+        <product_rel_index>2000000</product_rel_index>
+        <rank/>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <relation_applied/>
+        <release/>
+        <release_index/>
+        <remaining_duration/>
+        <remaining_effort/>
+        <rollup>false</rollup>
+        <route_reason/>
+        <run_calc_brs>true</run_calc_brs>
+        <schedule_end_date>2024-09-02 09:33:01</schedule_end_date>
+        <schedule_start_date>2024-09-02 09:33:01</schedule_start_date>
+        <service_offering/>
+        <shadow>false</shadow>
+        <short_description>Create custom Inbound REST API to update incidents</short_description>
+        <sla_due/>
+        <software_model/>
+        <split_from/>
+        <sprint display_value="Data Integration Platform">48d09f08932b02100580f55a7bba10e9</sprint>
+        <sprint_index>300000</sprint_index>
+        <start>2024-09-02</start>
+        <start_date>2024-09-02 09:33:01</start_date>
+        <start_date_derived_from/>
+        <state>-6</state>
+        <status>green</status>
+        <story_points/>
+        <sub_tree_root/>
+        <sys_class_name>rm_story</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 09:35:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>933d430b83101210ee9ce290ceaad3ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 09:37:19</sys_updated_on>
+        <task>Create custom Inbound REST API to update incidents​STRY0010002</task>
+        <task_effective_number>STRY0010002</task_effective_number>
+        <theme/>
+        <time_constraint>asap</time_constraint>
+        <time_worked/>
+        <time_zone/>
+        <top_task display_value="STRY0010002">933d430b83101210ee9ce290ceaad3ed</top_task>
+        <type/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <version/>
+        <watch_list/>
+        <wbs/>
+        <wbs_order/>
+        <wf_activity/>
+        <work_duration/>
+        <work_effort/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+        <x_devo2_dip_dip_external_id/>
+        <x_devo2_dip_integrated_attachments/>
+    </rm_story>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 12:06:49</sys_created_on>
+        <sys_id>d8703b0783d01210ee9ce290ceaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create custom Inbound REST API to update incidents</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_d8703b0783d01210ee9ce290ceaad36a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 12:06:49</sys_updated_on>
+        <tablename>rm_story</tablename>
+    </sys_metadata_link>
+</record_update>

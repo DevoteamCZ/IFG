@@ -4,10 +4,23 @@
         <documentkey>62accbc783101210ee9ce290ceaad3d4</documentkey>
         <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
     &lt;rm_story action="INSERT_OR_UPDATE"&gt;
-        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;Goal of this exercise is to create simple outbound message that is sent when specific condition is met.&lt;/p&gt;
-&lt;p&gt;For this purpose we will use DIP to automate the process.&lt;/p&gt;
-&lt;p&gt;Requirements:&lt;/p&gt;
-&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;Create outbound REST message (POST) with mock server as endpoint.&lt;/li&gt;&lt;li&gt;Create custom assignment group &amp;#39;DIP  technical&amp;#39;&lt;/li&gt;&lt;li&gt;Create DIP package with outbound trigger where condition is assignment_group.name &amp;#61;&amp;#61; &amp;#34;DIP technical&amp;#34;.&lt;/li&gt;&lt;li&gt;Create DIP case &lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;Setup automatically sent outbound REST message to your postman mock server when incident record is created or updated with specific assignment group. Check your mock server for body of the request you sent, it should look like this: &lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;{&lt;!-- --&gt;&lt;/div&gt;
+&lt;div&gt;  &amp;#34;request_id&amp;#34;: &amp;#34;a03b9c5f83941210ee9ce290ceaad355&amp;#34;,&lt;/div&gt;
+&lt;div&gt;  &amp;#34;attempt&amp;#34;: &amp;#34;1&amp;#34;,&lt;/div&gt;
+&lt;div&gt;  &amp;#34;dip_package&amp;#34;: &amp;#34;mock&amp;#34;,&lt;/div&gt;
+&lt;div&gt;  &amp;#34;dip_case&amp;#34;: &amp;#34;POST&amp;#34;,&lt;/div&gt;
+&lt;div&gt;  &amp;#34;data&amp;#34;: {&lt;!-- --&gt;&lt;/div&gt;
+&lt;div&gt;    &amp;#34;urgency&amp;#34;: &amp;#34;2&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;impact&amp;#34;: &amp;#34;3&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;priority&amp;#34;: &amp;#34;4&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;description&amp;#34;: &amp;#34;Unable to access the shared folder. Please provide access.&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;number&amp;#34;: &amp;#34;INC0009009&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;short_description&amp;#34;: &amp;#34;Unable to access the shared folder.&amp;#34;&lt;/div&gt;
+&lt;div&gt;  }&lt;/div&gt;
+&lt;div&gt;}&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/acceptance_criteria&gt;
         &lt;active&gt;true&lt;/active&gt;
         &lt;activity_due/&gt;
         &lt;additional_assignee_list/&gt;
@@ -44,7 +57,27 @@
         &lt;delivery_plan/&gt;
         &lt;delivery_task/&gt;
         &lt;dependency/&gt;
-        &lt;description&gt;Setup automatically sent outbound REST message to your postman mock server when incident record is created or updated with specific assignment group.&lt;/description&gt;
+        &lt;description&gt;Goal of this exercise is to create simple outbound message that is sent when specific assignment group on Incident record is set.&amp;#13;
+&amp;#13;
+For this purpose we will use DIP to automate the process and Postman mock server to check outbound messages.&amp;#13;
+DIP user guide: https://docs.google.com/document/d/191_vbhNHEnmLbvatorY_dsSjJQcK5LSJUpAsWlouJjQ/edit&amp;#13;
+&amp;#13;
+Postman mock server guide: https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/&amp;#13;
+&amp;#13;
+&amp;#13;
+Requirements:&amp;#13;
+&amp;#13;
+1. Create outbound REST message (POST) with Postman mock server as endpoint.&amp;#13;
+2. Create custom assignment group 'DIP  technical'.&amp;#13;
+3. Create DIP package with outbound trigger where condition is assignment_group.name == "DIP technical".&amp;#13;
+4. Create DIP case using job "outbound blank" and REST message details and method you created in step 1.&amp;#13;
+5. Create mapping  for fields you want to see in the related table at the bottom of the form. Mapping document is in the attachment of this story.&amp;#13;
+&amp;#13;
+&amp;#13;
+Hints:&amp;#13;
+&amp;#13;
+1. When creating the triggers in DIP be aware that whole incident object is stored inside "job.input.data" object that is accessible throughout the whole DIP job. It acts simillar to GlideRecord and you can access specific values via dotwalking. For example to get assignment groups name you can use "job.input.data.assignment_group.name".&amp;#13;
+2. In the mapping table, in case of outbound message "source" field should hold system name of the fields from incident table you want to get data from. "Target" field is how the attribute will be named in the outgoing message&lt;/description&gt;
         &lt;due_date/&gt;
         &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
         &lt;effort/&gt;
@@ -71,13 +104,13 @@
         &lt;milestone&gt;false&lt;/milestone&gt;
         &lt;model_id/&gt;
         &lt;mpp_task_id/&gt;
-        &lt;number&gt;STRY0010001&lt;/number&gt;
+        &lt;number&gt;STRY0010068&lt;/number&gt;
         &lt;opened_at&gt;2024-09-02 09:30:30&lt;/opened_at&gt;
         &lt;opened_by display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/opened_by&gt;
         &lt;order&gt;200&lt;/order&gt;
         &lt;orig_sys_id/&gt;
         &lt;orig_top_task_id/&gt;
-        &lt;original_task display_value="STRY0010001"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/original_task&gt;
+        &lt;original_task display_value="STRY0010068"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/original_task&gt;
         &lt;override_status&gt;false&lt;/override_status&gt;
         &lt;parent display_value="SPNT0010006"&gt;48d09f08932b02100580f55a7bba10e9&lt;/parent&gt;
         &lt;parent_feature/&gt;
@@ -122,16 +155,16 @@
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;62accbc783101210ee9ce290ceaad3d4&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-09-02 13:23:47&lt;/sys_updated_on&gt;
-        &lt;task&gt;Setup automatic outbound REST message​STRY0010001&lt;/task&gt;
-        &lt;task_effective_number&gt;STRY0010001&lt;/task_effective_number&gt;
+        &lt;sys_updated_on&gt;2024-09-02 15:34:23&lt;/sys_updated_on&gt;
+        &lt;task&gt;Setup automatic outbound REST message​STRY0010068&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0010068&lt;/task_effective_number&gt;
         &lt;theme/&gt;
         &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
         &lt;time_worked/&gt;
         &lt;time_zone/&gt;
-        &lt;top_task display_value="STRY0010001"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/top_task&gt;
+        &lt;top_task display_value="STRY0010068"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/top_task&gt;
         &lt;type/&gt;
         &lt;universal_request/&gt;
         &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
@@ -153,20 +186,59 @@
         &lt;x_devo2_dip_dip_external_id/&gt;
         &lt;x_devo2_dip_integrated_attachments/&gt;
     &lt;/rm_story&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&lt;/content_type&gt;
+        &lt;file_name&gt;Mapping.xlsx&lt;/file_name&gt;
+        &lt;hash&gt;807ebfd54bea45d472f964f6912780f3bab2351855a92973bb9e566785c77555&lt;/hash&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;12004&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;9226&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 14:56:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;9f57101b83941210ee9ce290ceaad3e7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-09-02 14:56:52&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;rm_story&lt;/table_name&gt;
+        &lt;table_sys_id&gt;62accbc783101210ee9ce290ceaad3d4&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAA/w==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="Mapping.xlsx" sys_id="9f57101b83941210ee9ce290ceaad3e7"&gt;9f57101b83941210ee9ce290ceaad3e7&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 14:56:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;df57101b83941210ee9ce290ceaad3e7&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;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&lt;/data&gt;
+        &lt;length&gt;12288&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="Mapping.xlsx" sys_id="9f57101b83941210ee9ce290ceaad3e7"&gt;9f57101b83941210ee9ce290ceaad3e7&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 14:56:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5357101b83941210ee9ce290ceaad3e8&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
 &lt;/record_update&gt;
 </payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-02 12:06:49</sys_created_on>
         <sys_id>1070330783d01210ee9ce290ceaad317</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Setup automatic outbound REST message</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_1070330783d01210ee9ce290ceaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 13:35:40</sys_updated_on>
+        <sys_updated_on>2024-09-02 16:56:45</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

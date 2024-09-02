@@ -2,168 +2,294 @@
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>933d430b83101210ee9ce290ceaad3ed</documentkey>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story">
-    <rm_story action="INSERT_OR_UPDATE">
-        <acceptance_criteria/>
-        <active>true</active>
-        <activity_due/>
-        <additional_assignee_list/>
-        <agile_story display_value="Create custom Inbound REST API to update incidents">933d430b83101210ee9ce290ceaad3ed</agile_story>
-        <allow_dates_outside_schedule>false</allow_dates_outside_schedule>
-        <approval>not requested</approval>
-        <approval_history/>
-        <approval_set/>
-        <assigned_to/>
-        <assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme">ca8c03c0932b02100580f55a7bba10e7</assignment_group>
-        <backlog_definition/>
-        <backlog_type>product</backlog_type>
-        <blocked>false</blocked>
-        <blocked_reason/>
-        <business_duration/>
-        <business_service/>
-        <calculation_type>automatic</calculation_type>
-        <calendar_duration/>
-        <classification>Feature</classification>
-        <close_notes/>
-        <closed_at/>
-        <closed_by/>
-        <cmdb_ci/>
-        <comments/>
-        <comments_and_work_notes/>
-        <company/>
-        <constraint_date/>
-        <contact_type/>
-        <contract/>
-        <correlation_display/>
-        <correlation_id/>
-        <critical_path>false</critical_path>
-        <defect/>
-        <delivery_plan/>
-        <delivery_task/>
-        <dependency/>
-        <description>Setup inbound REST API using DIP platform to be able to use Postman to create or update incidents in ServiceNow</description>
-        <due_date/>
-        <duration>1970-01-02 00:00:00</duration>
-        <effort/>
-        <end>2024-09-02</end>
-        <end_date>2024-09-02 09:33:01</end_date>
-        <end_date_derived_from/>
-        <enhancement/>
-        <epic display_value="Data Integration Platform">39398b0c93e702100580f55a7bba1007</epic>
-        <escalation>0</escalation>
-        <expected_start/>
-        <follow_up/>
-        <global_rank>4000200000</global_rank>
-        <group_list/>
-        <group_rank/>
-        <has_conflict>false</has_conflict>
-        <html_description/>
-        <impact>3</impact>
-        <is_enabler>false</is_enabler>
-        <key_milestone>false</key_milestone>
-        <knowledge>false</knowledge>
-        <level/>
-        <location/>
-        <made_sla>true</made_sla>
-        <milestone>false</milestone>
-        <model_id/>
-        <mpp_task_id/>
-        <number>STRY0010002</number>
-        <opened_at>2024-09-02 09:33:01</opened_at>
-        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
-        <order>300</order>
-        <orig_sys_id/>
-        <orig_top_task_id/>
-        <original_task display_value="STRY0010002">933d430b83101210ee9ce290ceaad3ed</original_task>
-        <override_status>false</override_status>
-        <parent display_value="SPNT0010006">48d09f08932b02100580f55a7bba10e9</parent>
-        <parent_feature/>
-        <percent_complete>0</percent_complete>
-        <prereq/>
-        <primary_goal/>
-        <priority>4</priority>
-        <product display_value="Integration Onboarding Programme">3398874c93e702100580f55a7bba10c0</product>
-        <product_rank/>
-        <product_rel_index>2000000</product_rel_index>
-        <rank/>
-        <reassignment_count>0</reassignment_count>
-        <rejection_goto/>
-        <relation_applied/>
-        <release/>
-        <release_index/>
-        <remaining_duration/>
-        <remaining_effort/>
-        <rollup>false</rollup>
-        <route_reason/>
-        <run_calc_brs>true</run_calc_brs>
-        <schedule_end_date>2024-09-02 09:33:01</schedule_end_date>
-        <schedule_start_date>2024-09-02 09:33:01</schedule_start_date>
-        <service_offering/>
-        <shadow>false</shadow>
-        <short_description>Create custom Inbound REST API to update incidents</short_description>
-        <sla_due/>
-        <software_model/>
-        <split_from/>
-        <sprint display_value="Data Integration Platform">48d09f08932b02100580f55a7bba10e9</sprint>
-        <sprint_index>300000</sprint_index>
-        <start>2024-09-02</start>
-        <start_date>2024-09-02 09:33:01</start_date>
-        <start_date_derived_from/>
-        <state>-6</state>
-        <status>green</status>
-        <story_points/>
-        <sub_tree_root/>
-        <sys_class_name>rm_story</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-02 09:35:40</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>933d430b83101210ee9ce290ceaad3ed</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 09:37:19</sys_updated_on>
-        <task>Create custom Inbound REST API to update incidents​STRY0010002</task>
-        <task_effective_number>STRY0010002</task_effective_number>
-        <theme/>
-        <time_constraint>asap</time_constraint>
-        <time_worked/>
-        <time_zone/>
-        <top_task display_value="STRY0010002">933d430b83101210ee9ce290ceaad3ed</top_task>
-        <type/>
-        <universal_request/>
-        <upon_approval>proceed</upon_approval>
-        <upon_reject>cancel</upon_reject>
-        <urgency>3</urgency>
-        <user_input/>
-        <variables/>
-        <version/>
-        <watch_list/>
-        <wbs/>
-        <wbs_order/>
-        <wf_activity/>
-        <work_duration/>
-        <work_effort/>
-        <work_end/>
-        <work_notes/>
-        <work_notes_list/>
-        <work_start/>
-        <x_devo2_dip_dip_external_id/>
-        <x_devo2_dip_integrated_attachments/>
-    </rm_story>
-</record_update>
-]]></payload>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
+    &lt;rm_story action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;Setup inbound REST API using DIP platform to be able to use Postman to create or update incidents in ServiceNow.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;After sending message to SNOW you should get response similar to this one:&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;{&lt;!-- --&gt;&lt;/div&gt;
+&lt;div&gt;    &amp;#34;request_id&amp;#34;: &amp;#34;555fe01b83181210ee9ce290ceaad341&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;dip_package&amp;#34;: &amp;#34;mock&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;dip_case&amp;#34;: &amp;#34;inbound&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;status&amp;#34;: &amp;#34;Success&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;operation&amp;#34;: &amp;#34;Create and update&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;result&amp;#34;: &amp;#34;Updated&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;message&amp;#34;: &amp;#34;Record 57af7aec73d423002728660c4cf6a71c was correctly updated.&amp;#34;,&lt;/div&gt;
+&lt;div&gt;    &amp;#34;data&amp;#34;: {}&lt;/div&gt;
+&lt;div&gt;}&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;and values in created/updated ticket should reflect what you sent into the instance.&lt;/div&gt;
+&lt;div&gt;Note that according to mapping file &amp;#39;number&amp;#39; is used as identifier so if you use number of existing incident the incident should be updated by API. If you use number that does not yet exist in the instance, API will create new one.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;OPTIONAL:&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;you can also try playing around with mapping of additional fields.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_due/&gt;
+        &lt;additional_assignee_list/&gt;
+        &lt;agile_story display_value="Create custom Inbound REST API to update incidents"&gt;933d430b83101210ee9ce290ceaad3ed&lt;/agile_story&gt;
+        &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
+        &lt;approval&gt;not requested&lt;/approval&gt;
+        &lt;approval_history/&gt;
+        &lt;approval_set/&gt;
+        &lt;assigned_to/&gt;
+        &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
+        &lt;backlog_definition/&gt;
+        &lt;backlog_type&gt;product&lt;/backlog_type&gt;
+        &lt;blocked&gt;false&lt;/blocked&gt;
+        &lt;blocked_reason/&gt;
+        &lt;business_duration/&gt;
+        &lt;business_service/&gt;
+        &lt;calculation_type&gt;automatic&lt;/calculation_type&gt;
+        &lt;calendar_duration/&gt;
+        &lt;classification&gt;Feature&lt;/classification&gt;
+        &lt;close_notes/&gt;
+        &lt;closed_at/&gt;
+        &lt;closed_by/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;comments/&gt;
+        &lt;comments_and_work_notes/&gt;
+        &lt;company/&gt;
+        &lt;constraint_date/&gt;
+        &lt;contact_type/&gt;
+        &lt;contract/&gt;
+        &lt;correlation_display/&gt;
+        &lt;correlation_id/&gt;
+        &lt;critical_path&gt;false&lt;/critical_path&gt;
+        &lt;defect/&gt;
+        &lt;delivery_plan/&gt;
+        &lt;delivery_task/&gt;
+        &lt;dependency/&gt;
+        &lt;description&gt;Goal of this exercise is to create simple inbound API that processes inbound messages and creates or updates incident records.&amp;#13;
+&amp;#13;
+For this purpose we will use DIP to automate the process and Postman to sent messages to DIP API.&amp;#13;
+&amp;#13;
+DIP user guide: https://docs.google.com/document/d/191_vbhNHEnmLbvatorY_dsSjJQcK5LSJUpAsWlouJjQ/edit&amp;#13;
+&amp;#13;
+Postman request guide: https://learning.postman.com/docs/sending-requests/requests/&amp;#13;
+&amp;#13;
+Requirements:&amp;#13;
+&amp;#13;
+1. Create user "dip_service" that will be used for authorization against SNOW. Make sure that the user has "x_devo2_dip.Inbound API" role.&amp;#13;
+2. Create DIP package  OR reuse package created in previous story (story number STRY0010068).&amp;#13;
+3. In the package add "dip_service" user into the authorizations tab.&amp;#13;
+4. Create new DIP case using job "inbound eBonding".&amp;#13;
+5. Set table as "Incident" and operation as "create and update".&amp;#13;
+5. Create mapping according to attached mapping document in the related table at the bottom of the form.&amp;#13;
+&amp;#13;
+Testing procedure&amp;#13;
+1. In Postman prepare new POST message.&amp;#13;
+2. Set endpoint as https://{instance_name}.service-now.com/api/x_devo2_dip/dip/trans/{package_name}/{case_name}&amp;#13;
+3. set authentication as basic and use details of "dip_service" user.&amp;#13;
+4. as body template you can use example in attachments of this story.&amp;#13;
+5. try changing values in the message body and check if they are reflected in SNOW.&amp;#13;
+&amp;#13;
+&amp;#13;
+Hints:&amp;#13;
+&amp;#13;
+1. In the mapping table, in case of inbound message "Source" field should hold attribute name used in the JSON. "Target" field is system name of SNOW field that you want to map the attribute to. &lt;/description&gt;
+        &lt;due_date/&gt;
+        &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
+        &lt;effort/&gt;
+        &lt;end&gt;2024-09-02&lt;/end&gt;
+        &lt;end_date&gt;2024-09-02 09:33:01&lt;/end_date&gt;
+        &lt;end_date_derived_from/&gt;
+        &lt;enhancement/&gt;
+        &lt;epic display_value="Data Integration Platform"&gt;39398b0c93e702100580f55a7bba1007&lt;/epic&gt;
+        &lt;escalation&gt;0&lt;/escalation&gt;
+        &lt;expected_start/&gt;
+        &lt;follow_up/&gt;
+        &lt;global_rank&gt;4000200000&lt;/global_rank&gt;
+        &lt;group_list/&gt;
+        &lt;group_rank/&gt;
+        &lt;has_conflict&gt;false&lt;/has_conflict&gt;
+        &lt;html_description/&gt;
+        &lt;impact&gt;3&lt;/impact&gt;
+        &lt;is_enabler&gt;false&lt;/is_enabler&gt;
+        &lt;key_milestone&gt;false&lt;/key_milestone&gt;
+        &lt;knowledge&gt;false&lt;/knowledge&gt;
+        &lt;level/&gt;
+        &lt;location/&gt;
+        &lt;made_sla&gt;true&lt;/made_sla&gt;
+        &lt;milestone&gt;false&lt;/milestone&gt;
+        &lt;model_id/&gt;
+        &lt;mpp_task_id/&gt;
+        &lt;number&gt;STRY0010069&lt;/number&gt;
+        &lt;opened_at&gt;2024-09-02 09:33:01&lt;/opened_at&gt;
+        &lt;opened_by display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/opened_by&gt;
+        &lt;order&gt;300&lt;/order&gt;
+        &lt;orig_sys_id/&gt;
+        &lt;orig_top_task_id/&gt;
+        &lt;original_task display_value="STRY0010069"&gt;933d430b83101210ee9ce290ceaad3ed&lt;/original_task&gt;
+        &lt;override_status&gt;false&lt;/override_status&gt;
+        &lt;parent display_value="SPNT0010006"&gt;48d09f08932b02100580f55a7bba10e9&lt;/parent&gt;
+        &lt;parent_feature/&gt;
+        &lt;percent_complete&gt;0&lt;/percent_complete&gt;
+        &lt;prereq/&gt;
+        &lt;primary_goal/&gt;
+        &lt;priority&gt;4&lt;/priority&gt;
+        &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
+        &lt;product_rank/&gt;
+        &lt;product_rel_index&gt;2000000&lt;/product_rel_index&gt;
+        &lt;rank/&gt;
+        &lt;reassignment_count&gt;0&lt;/reassignment_count&gt;
+        &lt;rejection_goto/&gt;
+        &lt;relation_applied/&gt;
+        &lt;release/&gt;
+        &lt;release_index/&gt;
+        &lt;remaining_duration/&gt;
+        &lt;remaining_effort/&gt;
+        &lt;rollup&gt;false&lt;/rollup&gt;
+        &lt;route_reason/&gt;
+        &lt;run_calc_brs&gt;true&lt;/run_calc_brs&gt;
+        &lt;schedule_end_date&gt;2024-09-02 09:33:01&lt;/schedule_end_date&gt;
+        &lt;schedule_start_date&gt;2024-09-02 09:33:01&lt;/schedule_start_date&gt;
+        &lt;service_offering/&gt;
+        &lt;shadow&gt;false&lt;/shadow&gt;
+        &lt;short_description&gt;Create custom Inbound REST API to update incidents&lt;/short_description&gt;
+        &lt;sla_due/&gt;
+        &lt;software_model/&gt;
+        &lt;split_from/&gt;
+        &lt;sprint display_value="Data Integration Platform"&gt;48d09f08932b02100580f55a7bba10e9&lt;/sprint&gt;
+        &lt;sprint_index&gt;300000&lt;/sprint_index&gt;
+        &lt;start&gt;2024-09-02&lt;/start&gt;
+        &lt;start_date&gt;2024-09-02 09:33:01&lt;/start_date&gt;
+        &lt;start_date_derived_from/&gt;
+        &lt;state&gt;-6&lt;/state&gt;
+        &lt;status&gt;green&lt;/status&gt;
+        &lt;story_points/&gt;
+        &lt;sub_tree_root/&gt;
+        &lt;sys_class_name&gt;rm_story&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 09:35:40&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;933d430b83101210ee9ce290ceaad3ed&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-09-02 16:56:19&lt;/sys_updated_on&gt;
+        &lt;task&gt;Create custom Inbound REST API to update incidents​STRY0010069&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0010069&lt;/task_effective_number&gt;
+        &lt;theme/&gt;
+        &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
+        &lt;time_worked/&gt;
+        &lt;time_zone/&gt;
+        &lt;top_task display_value="STRY0010069"&gt;933d430b83101210ee9ce290ceaad3ed&lt;/top_task&gt;
+        &lt;type/&gt;
+        &lt;universal_request/&gt;
+        &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
+        &lt;upon_reject&gt;cancel&lt;/upon_reject&gt;
+        &lt;urgency&gt;3&lt;/urgency&gt;
+        &lt;user_input/&gt;
+        &lt;variables/&gt;
+        &lt;version/&gt;
+        &lt;watch_list/&gt;
+        &lt;wbs/&gt;
+        &lt;wbs_order/&gt;
+        &lt;wf_activity/&gt;
+        &lt;work_duration/&gt;
+        &lt;work_effort/&gt;
+        &lt;work_end/&gt;
+        &lt;work_notes/&gt;
+        &lt;work_notes_list/&gt;
+        &lt;work_start/&gt;
+        &lt;x_devo2_dip_dip_external_id/&gt;
+        &lt;x_devo2_dip_integrated_attachments/&gt;
+    &lt;/rm_story&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&lt;/content_type&gt;
+        &lt;file_name&gt;Mapping_inbound.xlsx&lt;/file_name&gt;
+        &lt;hash&gt;668928027664e53a2e694d5707cd6eacd1ffc7213426bb3ff93d589df00415d3&lt;/hash&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;12172&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;9389&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 15:57:48&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;734568db83d41210ee9ce290ceaad314&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-09-02 15:57:48&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;rm_story&lt;/table_name&gt;
+        &lt;table_sys_id&gt;933d430b83101210ee9ce290ceaad3ed&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAA/w==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="Mapping_inbound.xlsx" sys_id="734568db83d41210ee9ce290ceaad314"&gt;734568db83d41210ee9ce290ceaad314&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 15:57:48&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b34568db83d41210ee9ce290ceaad314&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;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&lt;/data&gt;
+        &lt;length&gt;12508&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="Mapping_inbound.xlsx" sys_id="734568db83d41210ee9ce290ceaad314"&gt;734568db83d41210ee9ce290ceaad314&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 15:57:48&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;374568db83d41210ee9ce290ceaad314&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;application/json&lt;/content_type&gt;
+        &lt;file_name&gt;message_template.json&lt;/file_name&gt;
+        &lt;hash&gt;999432f438d9c09af752df439508118ab99447aef55418754b7c8e4902730d28&lt;/hash&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;262&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;167&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 16:51:50&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6ba17cd783181210ee9ce290ceaad358&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-09-02 16:51:51&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;rm_story&lt;/table_name&gt;
+        &lt;table_sys_id&gt;933d430b83101210ee9ce290ceaad3ed&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAA/w==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="message_template.json" sys_id="6ba17cd783181210ee9ce290ceaad358"&gt;6ba17cd783181210ee9ce290ceaad358&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 16:51:50&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;aba17cd783181210ee9ce290ceaad358&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;lY0xC8IwEIX3Qv/DkVlKURddnVzExVmuyWkCbRIuV0GK/91ESnbhLe97794tbQOgDAqqIyzFZDvzk7x+Z6K2arNCN0XUUtiussgusJNfc1+poaTZRXHBl+DmcRgJJABqTSmBWIJkkcnAI4yGuIPrSJgIIoeXM7QWu7ro52kgLmPny6nv+0NWDZMNLPf/n6py/2mbrC9yKVBGBgEAAA==&lt;/data&gt;
+        &lt;length&gt;212&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="message_template.json" sys_id="6ba17cd783181210ee9ce290ceaad358"&gt;6ba17cd783181210ee9ce290ceaad358&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 16:51:50&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2fa17cd783181210ee9ce290ceaad358&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+&lt;/record_update&gt;
+</payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-02 12:06:49</sys_created_on>
         <sys_id>d8703b0783d01210ee9ce290ceaad36a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Create custom Inbound REST API to update incidents</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_d8703b0783d01210ee9ce290ceaad36a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 13:35:40</sys_updated_on>
+        <sys_updated_on>2024-09-02 16:56:45</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

@@ -2,165 +2,171 @@
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>62accbc783101210ee9ce290ceaad3d4</documentkey>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="rm_story">
-    <rm_story action="INSERT_OR_UPDATE">
-        <acceptance_criteria/>
-        <active>true</active>
-        <activity_due/>
-        <additional_assignee_list/>
-        <allow_dates_outside_schedule>false</allow_dates_outside_schedule>
-        <approval>not requested</approval>
-        <approval_history/>
-        <approval_set/>
-        <assigned_to/>
-        <assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme">ca8c03c0932b02100580f55a7bba10e7</assignment_group>
-        <backlog_type>product</backlog_type>
-        <blocked>false</blocked>
-        <blocked_reason/>
-        <business_duration/>
-        <business_service/>
-        <calculation_type>automatic</calculation_type>
-        <calendar_duration/>
-        <classification>Feature</classification>
-        <close_notes/>
-        <closed_at/>
-        <closed_by/>
-        <cmdb_ci/>
-        <comments/>
-        <comments_and_work_notes/>
-        <company/>
-        <constraint_date/>
-        <contact_type/>
-        <contract/>
-        <correlation_display/>
-        <correlation_id/>
-        <critical_path>false</critical_path>
-        <defect/>
-        <delivery_plan/>
-        <delivery_task/>
-        <dependency/>
-        <description/>
-        <due_date/>
-        <duration>1970-01-02 00:00:00</duration>
-        <effort/>
-        <end>2024-09-02</end>
-        <end_date>2024-09-02 09:30:30</end_date>
-        <end_date_derived_from/>
-        <enhancement/>
-        <epic display_value="Data Integration Platform">39398b0c93e702100580f55a7bba1007</epic>
-        <escalation>0</escalation>
-        <expected_start/>
-        <follow_up/>
-        <global_rank>4000100000</global_rank>
-        <group_list/>
-        <group_rank/>
-        <has_conflict>false</has_conflict>
-        <html_description/>
-        <impact>3</impact>
-        <is_enabler>false</is_enabler>
-        <key_milestone>false</key_milestone>
-        <knowledge>false</knowledge>
-        <level/>
-        <location/>
-        <made_sla>true</made_sla>
-        <milestone>false</milestone>
-        <model_id/>
-        <mpp_task_id/>
-        <number>STRY0010001</number>
-        <opened_at>2024-09-02 09:30:30</opened_at>
-        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
-        <order>200</order>
-        <orig_sys_id/>
-        <orig_top_task_id/>
-        <override_status>false</override_status>
-        <parent display_value="SPNT0010006">48d09f08932b02100580f55a7bba10e9</parent>
-        <parent_feature/>
-        <percent_complete>0</percent_complete>
-        <prereq/>
-        <primary_goal/>
-        <priority>4</priority>
-        <product display_value="Integration Onboarding Programme">3398874c93e702100580f55a7bba10c0</product>
-        <product_rank/>
-        <product_rel_index>1900000</product_rel_index>
-        <rank/>
-        <reassignment_count>0</reassignment_count>
-        <rejection_goto/>
-        <relation_applied/>
-        <release/>
-        <release_index/>
-        <remaining_duration/>
-        <remaining_effort/>
-        <rollup>false</rollup>
-        <route_reason/>
-        <run_calc_brs>true</run_calc_brs>
-        <schedule_end_date>2024-09-02 09:30:30</schedule_end_date>
-        <schedule_start_date>2024-09-02 09:30:30</schedule_start_date>
-        <service_offering/>
-        <shadow>false</shadow>
-        <short_description>Setup automatic outbound REST message</short_description>
-        <sla_due/>
-        <software_model/>
-        <split_from/>
-        <sprint display_value="Data Integration Platform">48d09f08932b02100580f55a7bba10e9</sprint>
-        <sprint_index>200000</sprint_index>
-        <start>2024-09-02</start>
-        <start_date>2024-09-02 09:30:30</start_date>
-        <start_date_derived_from/>
-        <state>-6</state>
-        <status>green</status>
-        <story_points/>
-        <sub_tree_root/>
-        <sys_class_name>rm_story</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-02 09:32:13</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>62accbc783101210ee9ce290ceaad3d4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 09:37:14</sys_updated_on>
-        <task>Setup automatic outbound REST message​STRY0010001</task>
-        <task_effective_number>STRY0010001</task_effective_number>
-        <theme/>
-        <time_constraint>asap</time_constraint>
-        <time_worked/>
-        <time_zone/>
-        <top_task display_value="STRY0010001">62accbc783101210ee9ce290ceaad3d4</top_task>
-        <type/>
-        <universal_request/>
-        <upon_approval>proceed</upon_approval>
-        <upon_reject>cancel</upon_reject>
-        <urgency>3</urgency>
-        <user_input/>
-        <variables/>
-        <version/>
-        <watch_list/>
-        <wbs/>
-        <wbs_order/>
-        <wf_activity/>
-        <work_duration/>
-        <work_effort/>
-        <work_end/>
-        <work_notes/>
-        <work_notes_list/>
-        <work_start/>
-        <x_devo2_dip_dip_external_id/>
-        <x_devo2_dip_integrated_attachments/>
-    </rm_story>
-</record_update>
-]]></payload>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="rm_story"&gt;
+    &lt;rm_story action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;&lt;![CDATA[&lt;p&gt;Goal of this exercise is to create simple outbound message that is sent when specific condition is met.&lt;/p&gt;
+&lt;p&gt;For this purpose we will use DIP to automate the process.&lt;/p&gt;
+&lt;p&gt;Requirements:&lt;/p&gt;
+&lt;ol style="list-style-position: inside;"&gt;&lt;li&gt;Create outbound REST message (POST) with mock server as endpoint.&lt;/li&gt;&lt;li&gt;Create custom assignment group &amp;#39;DIP  technical&amp;#39;&lt;/li&gt;&lt;li&gt;Create DIP package with outbound trigger where condition is assignment_group.name &amp;#61;&amp;#61; &amp;#34;DIP technical&amp;#34;.&lt;/li&gt;&lt;li&gt;Create DIP case &lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_due/&gt;
+        &lt;additional_assignee_list/&gt;
+        &lt;agile_story display_value="Setup automatic outbound REST message"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/agile_story&gt;
+        &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
+        &lt;approval&gt;not requested&lt;/approval&gt;
+        &lt;approval_history/&gt;
+        &lt;approval_set/&gt;
+        &lt;assigned_to/&gt;
+        &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
+        &lt;backlog_definition/&gt;
+        &lt;backlog_type&gt;product&lt;/backlog_type&gt;
+        &lt;blocked&gt;false&lt;/blocked&gt;
+        &lt;blocked_reason/&gt;
+        &lt;business_duration/&gt;
+        &lt;business_service/&gt;
+        &lt;calculation_type&gt;automatic&lt;/calculation_type&gt;
+        &lt;calendar_duration/&gt;
+        &lt;classification&gt;Feature&lt;/classification&gt;
+        &lt;close_notes/&gt;
+        &lt;closed_at/&gt;
+        &lt;closed_by/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;comments/&gt;
+        &lt;comments_and_work_notes/&gt;
+        &lt;company/&gt;
+        &lt;constraint_date/&gt;
+        &lt;contact_type/&gt;
+        &lt;contract/&gt;
+        &lt;correlation_display/&gt;
+        &lt;correlation_id/&gt;
+        &lt;critical_path&gt;false&lt;/critical_path&gt;
+        &lt;defect/&gt;
+        &lt;delivery_plan/&gt;
+        &lt;delivery_task/&gt;
+        &lt;dependency/&gt;
+        &lt;description&gt;Setup automatically sent outbound REST message to your postman mock server when incident record is created or updated with specific assignment group.&lt;/description&gt;
+        &lt;due_date/&gt;
+        &lt;duration&gt;1970-01-02 00:00:00&lt;/duration&gt;
+        &lt;effort/&gt;
+        &lt;end&gt;2024-09-02&lt;/end&gt;
+        &lt;end_date&gt;2024-09-02 09:30:30&lt;/end_date&gt;
+        &lt;end_date_derived_from/&gt;
+        &lt;enhancement/&gt;
+        &lt;epic display_value="Data Integration Platform"&gt;39398b0c93e702100580f55a7bba1007&lt;/epic&gt;
+        &lt;escalation&gt;0&lt;/escalation&gt;
+        &lt;expected_start/&gt;
+        &lt;follow_up/&gt;
+        &lt;global_rank&gt;4000100000&lt;/global_rank&gt;
+        &lt;group_list/&gt;
+        &lt;group_rank/&gt;
+        &lt;has_conflict&gt;false&lt;/has_conflict&gt;
+        &lt;html_description/&gt;
+        &lt;impact&gt;3&lt;/impact&gt;
+        &lt;is_enabler&gt;false&lt;/is_enabler&gt;
+        &lt;key_milestone&gt;false&lt;/key_milestone&gt;
+        &lt;knowledge&gt;false&lt;/knowledge&gt;
+        &lt;level/&gt;
+        &lt;location/&gt;
+        &lt;made_sla&gt;true&lt;/made_sla&gt;
+        &lt;milestone&gt;false&lt;/milestone&gt;
+        &lt;model_id/&gt;
+        &lt;mpp_task_id/&gt;
+        &lt;number&gt;STRY0010001&lt;/number&gt;
+        &lt;opened_at&gt;2024-09-02 09:30:30&lt;/opened_at&gt;
+        &lt;opened_by display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/opened_by&gt;
+        &lt;order&gt;200&lt;/order&gt;
+        &lt;orig_sys_id/&gt;
+        &lt;orig_top_task_id/&gt;
+        &lt;original_task display_value="STRY0010001"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/original_task&gt;
+        &lt;override_status&gt;false&lt;/override_status&gt;
+        &lt;parent display_value="SPNT0010006"&gt;48d09f08932b02100580f55a7bba10e9&lt;/parent&gt;
+        &lt;parent_feature/&gt;
+        &lt;percent_complete&gt;0&lt;/percent_complete&gt;
+        &lt;prereq/&gt;
+        &lt;primary_goal/&gt;
+        &lt;priority&gt;4&lt;/priority&gt;
+        &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
+        &lt;product_rank/&gt;
+        &lt;product_rel_index&gt;1900000&lt;/product_rel_index&gt;
+        &lt;rank/&gt;
+        &lt;reassignment_count&gt;0&lt;/reassignment_count&gt;
+        &lt;rejection_goto/&gt;
+        &lt;relation_applied/&gt;
+        &lt;release/&gt;
+        &lt;release_index/&gt;
+        &lt;remaining_duration/&gt;
+        &lt;remaining_effort/&gt;
+        &lt;rollup&gt;false&lt;/rollup&gt;
+        &lt;route_reason/&gt;
+        &lt;run_calc_brs&gt;true&lt;/run_calc_brs&gt;
+        &lt;schedule_end_date&gt;2024-09-02 09:30:30&lt;/schedule_end_date&gt;
+        &lt;schedule_start_date&gt;2024-09-02 09:30:30&lt;/schedule_start_date&gt;
+        &lt;service_offering/&gt;
+        &lt;shadow&gt;false&lt;/shadow&gt;
+        &lt;short_description&gt;Setup automatic outbound REST message&lt;/short_description&gt;
+        &lt;sla_due/&gt;
+        &lt;software_model/&gt;
+        &lt;split_from/&gt;
+        &lt;sprint display_value="Data Integration Platform"&gt;48d09f08932b02100580f55a7bba10e9&lt;/sprint&gt;
+        &lt;sprint_index&gt;200000&lt;/sprint_index&gt;
+        &lt;start&gt;2024-09-02&lt;/start&gt;
+        &lt;start_date&gt;2024-09-02 09:30:30&lt;/start_date&gt;
+        &lt;start_date_derived_from/&gt;
+        &lt;state&gt;-6&lt;/state&gt;
+        &lt;status&gt;green&lt;/status&gt;
+        &lt;story_points/&gt;
+        &lt;sub_tree_root/&gt;
+        &lt;sys_class_name&gt;rm_story&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-02 09:32:13&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;62accbc783101210ee9ce290ceaad3d4&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-09-02 13:23:47&lt;/sys_updated_on&gt;
+        &lt;task&gt;Setup automatic outbound REST message​STRY0010001&lt;/task&gt;
+        &lt;task_effective_number&gt;STRY0010001&lt;/task_effective_number&gt;
+        &lt;theme/&gt;
+        &lt;time_constraint&gt;asap&lt;/time_constraint&gt;
+        &lt;time_worked/&gt;
+        &lt;time_zone/&gt;
+        &lt;top_task display_value="STRY0010001"&gt;62accbc783101210ee9ce290ceaad3d4&lt;/top_task&gt;
+        &lt;type/&gt;
+        &lt;universal_request/&gt;
+        &lt;upon_approval&gt;proceed&lt;/upon_approval&gt;
+        &lt;upon_reject&gt;cancel&lt;/upon_reject&gt;
+        &lt;urgency&gt;3&lt;/urgency&gt;
+        &lt;user_input/&gt;
+        &lt;variables/&gt;
+        &lt;version/&gt;
+        &lt;watch_list/&gt;
+        &lt;wbs/&gt;
+        &lt;wbs_order/&gt;
+        &lt;wf_activity/&gt;
+        &lt;work_duration/&gt;
+        &lt;work_effort/&gt;
+        &lt;work_end/&gt;
+        &lt;work_notes/&gt;
+        &lt;work_notes_list/&gt;
+        &lt;work_start/&gt;
+        &lt;x_devo2_dip_dip_external_id/&gt;
+        &lt;x_devo2_dip_integrated_attachments/&gt;
+    &lt;/rm_story&gt;
+&lt;/record_update&gt;
+</payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-02 12:06:49</sys_created_on>
         <sys_id>1070330783d01210ee9ce290ceaad317</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Setup automatic outbound REST message</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_1070330783d01210ee9ce290ceaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 12:06:49</sys_updated_on>
+        <sys_updated_on>2024-09-02 13:35:40</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

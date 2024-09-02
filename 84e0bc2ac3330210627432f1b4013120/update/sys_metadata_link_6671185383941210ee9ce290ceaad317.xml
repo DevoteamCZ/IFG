@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5422c45f83141210ee9ce290ceaad38a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_story_dependencies">
+    <m2m_story_dependencies action="INSERT_OR_UPDATE">
+        <dependent_story display_value="Setup automatic outbound REST message">62accbc783101210ee9ce290ceaad3d4</dependent_story>
+        <prerequisite_story display_value="&quot;install&quot; DIP on your developer instance">16a1997e2f3d0110152459a72799b607</prerequisite_story>
+        <sys_class_name>m2m_story_dependencies</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 13:24:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5422c45f83141210ee9ce290ceaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 13:24:05</sys_updated_on>
+    </m2m_story_dependencies>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-02 14:31:09</sys_created_on>
+        <sys_id>6671185383941210ee9ce290ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-09-02 06:24:05</sys_name>
+        <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
+        <sys_update_name>sys_metadata_link_6671185383941210ee9ce290ceaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-02 14:31:09</sys_updated_on>
+        <tablename>m2m_story_dependencies</tablename>
+    </sys_metadata_link>
+</record_update>

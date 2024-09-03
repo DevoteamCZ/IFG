@@ -8,7 +8,7 @@
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;After sending message to SNOW you should get response similar to this one:&lt;/p&gt;
 &lt;div&gt;
-&lt;div&gt;{&lt;!-- --&gt;&lt;/div&gt;
+&lt;div&gt;{&lt;/div&gt;
 &lt;div&gt;    &amp;#34;request_id&amp;#34;: &amp;#34;555fe01b83181210ee9ce290ceaad341&amp;#34;,&lt;/div&gt;
 &lt;div&gt;    &amp;#34;dip_package&amp;#34;: &amp;#34;mock&amp;#34;,&lt;/div&gt;
 &lt;div&gt;    &amp;#34;dip_case&amp;#34;: &amp;#34;inbound&amp;#34;,&lt;/div&gt;
@@ -29,14 +29,12 @@
         &lt;active&gt;true&lt;/active&gt;
         &lt;activity_due/&gt;
         &lt;additional_assignee_list/&gt;
-        &lt;agile_story display_value="Create custom Inbound REST API to update incidents"&gt;933d430b83101210ee9ce290ceaad3ed&lt;/agile_story&gt;
         &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
         &lt;approval&gt;not requested&lt;/approval&gt;
         &lt;approval_history/&gt;
         &lt;approval_set/&gt;
         &lt;assigned_to/&gt;
         &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
-        &lt;backlog_definition/&gt;
         &lt;backlog_type&gt;product&lt;/backlog_type&gt;
         &lt;blocked&gt;false&lt;/blocked&gt;
         &lt;blocked_reason/&gt;
@@ -107,7 +105,7 @@ Hints:&amp;#13;
         &lt;has_conflict&gt;false&lt;/has_conflict&gt;
         &lt;html_description/&gt;
         &lt;impact&gt;3&lt;/impact&gt;
-        &lt;is_enabler&gt;false&lt;/is_enabler&gt;
+        &lt;improvement/&gt;
         &lt;key_milestone&gt;false&lt;/key_milestone&gt;
         &lt;knowledge&gt;false&lt;/knowledge&gt;
         &lt;level/&gt;
@@ -122,12 +120,10 @@ Hints:&amp;#13;
         &lt;order&gt;300&lt;/order&gt;
         &lt;orig_sys_id/&gt;
         &lt;orig_top_task_id/&gt;
-        &lt;original_task display_value="STRY0010069"&gt;933d430b83101210ee9ce290ceaad3ed&lt;/original_task&gt;
         &lt;override_status&gt;false&lt;/override_status&gt;
         &lt;parent display_value="SPNT0010006"&gt;48d09f08932b02100580f55a7bba10e9&lt;/parent&gt;
         &lt;parent_feature/&gt;
         &lt;percent_complete&gt;0&lt;/percent_complete&gt;
-        &lt;prereq/&gt;
         &lt;primary_goal/&gt;
         &lt;priority&gt;4&lt;/priority&gt;
         &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
@@ -149,6 +145,7 @@ Hints:&amp;#13;
         &lt;service_offering/&gt;
         &lt;shadow&gt;false&lt;/shadow&gt;
         &lt;short_description&gt;Create custom Inbound REST API to update incidents&lt;/short_description&gt;
+        &lt;skills/&gt;
         &lt;sla_due/&gt;
         &lt;software_model/&gt;
         &lt;split_from/&gt;
@@ -157,7 +154,7 @@ Hints:&amp;#13;
         &lt;start&gt;2024-09-02&lt;/start&gt;
         &lt;start_date&gt;2024-09-02 09:33:01&lt;/start_date&gt;
         &lt;start_date_derived_from/&gt;
-        &lt;state&gt;-6&lt;/state&gt;
+        &lt;state&gt;1&lt;/state&gt;
         &lt;status&gt;green&lt;/status&gt;
         &lt;story_points/&gt;
         &lt;sub_tree_root/&gt;
@@ -167,9 +164,9 @@ Hints:&amp;#13;
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;933d430b83101210ee9ce290ceaad3ed&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-09-02 16:56:19&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-09-02 17:48:42&lt;/sys_updated_on&gt;
         &lt;task&gt;Create custom Inbound REST API to update incidents​STRY0010069&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0010069&lt;/task_effective_number&gt;
         &lt;theme/&gt;
@@ -282,14 +279,14 @@ Hints:&amp;#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-02 12:06:49</sys_created_on>
         <sys_id>d8703b0783d01210ee9ce290ceaad36a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Create custom Inbound REST API to update incidents</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_d8703b0783d01210ee9ce290ceaad36a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 16:56:45</sys_updated_on>
+        <sys_updated_on>2024-09-02 17:49:11</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

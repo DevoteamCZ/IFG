@@ -8,14 +8,12 @@
         &lt;active&gt;true&lt;/active&gt;
         &lt;activity_due/&gt;
         &lt;additional_assignee_list/&gt;
-        &lt;agile_story display_value="&amp;quot;install&amp;quot; DIP on your developer instance"&gt;16a1997e2f3d0110152459a72799b607&lt;/agile_story&gt;
         &lt;allow_dates_outside_schedule&gt;false&lt;/allow_dates_outside_schedule&gt;
         &lt;approval&gt;not requested&lt;/approval&gt;
         &lt;approval_history/&gt;
         &lt;approval_set/&gt;
         &lt;assigned_to/&gt;
         &lt;assignment_group display_value="Integration Onboarding Programme" name="Integration Onboarding Programme"&gt;ca8c03c0932b02100580f55a7bba10e7&lt;/assignment_group&gt;
-        &lt;backlog_definition/&gt;
         &lt;backlog_type&gt;product&lt;/backlog_type&gt;
         &lt;blocked&gt;false&lt;/blocked&gt;
         &lt;blocked_reason/&gt;
@@ -84,7 +82,7 @@ For DIP to be able to update and insert records based on incoming REST messages 
         &lt;has_conflict&gt;false&lt;/has_conflict&gt;
         &lt;html_description/&gt;
         &lt;impact&gt;3&lt;/impact&gt;
-        &lt;is_enabler&gt;false&lt;/is_enabler&gt;
+        &lt;improvement/&gt;
         &lt;key_milestone&gt;false&lt;/key_milestone&gt;
         &lt;knowledge&gt;false&lt;/knowledge&gt;
         &lt;level/&gt;
@@ -99,12 +97,10 @@ For DIP to be able to update and insert records based on incoming REST messages 
         &lt;order&gt;100&lt;/order&gt;
         &lt;orig_sys_id/&gt;
         &lt;orig_top_task_id/&gt;
-        &lt;original_task display_value="STRY0010014"&gt;16a1997e2f3d0110152459a72799b607&lt;/original_task&gt;
         &lt;override_status&gt;false&lt;/override_status&gt;
-        &lt;parent display_value="SPNT0010006"&gt;48d09f08932b02100580f55a7bba10e9&lt;/parent&gt;
+        &lt;parent/&gt;
         &lt;parent_feature/&gt;
         &lt;percent_complete&gt;0&lt;/percent_complete&gt;
-        &lt;prereq/&gt;
         &lt;primary_goal/&gt;
         &lt;priority&gt;4&lt;/priority&gt;
         &lt;product display_value="Integration Onboarding Programme"&gt;3398874c93e702100580f55a7bba10c0&lt;/product&gt;
@@ -126,11 +122,12 @@ For DIP to be able to update and insert records based on incoming REST messages 
         &lt;service_offering/&gt;
         &lt;shadow&gt;false&lt;/shadow&gt;
         &lt;short_description&gt;"install" DIP on your developer instance&lt;/short_description&gt;
+        &lt;skills/&gt;
         &lt;sla_due/&gt;
         &lt;software_model/&gt;
         &lt;split_from/&gt;
-        &lt;sprint display_value="Data Integration Platform"&gt;48d09f08932b02100580f55a7bba10e9&lt;/sprint&gt;
-        &lt;sprint_index&gt;100000&lt;/sprint_index&gt;
+        &lt;sprint/&gt;
+        &lt;sprint_index&gt;-1&lt;/sprint_index&gt;
         &lt;start&gt;2022-02-24&lt;/start&gt;
         &lt;start_date&gt;2022-02-24 14:33:02&lt;/start_date&gt;
         &lt;start_date_derived_from/&gt;
@@ -144,9 +141,9 @@ For DIP to be able to update and insert records based on incoming REST messages 
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;16a1997e2f3d0110152459a72799b607&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;30&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-09-02 09:37:16&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-09-02 18:01:43&lt;/sys_updated_on&gt;
         &lt;task&gt;"install" DIP on your developer instance​STRY0010014&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0010014&lt;/task_effective_number&gt;
         &lt;theme/&gt;
@@ -220,14 +217,14 @@ For DIP to be able to update and insert records based on incoming REST messages 
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 12:34:39</sys_created_on>
         <sys_id>bce3fc2ec3330210627432f1b4013175</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>"install" DIP on your developer instance</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_bce3fc2ec3330210627432f1b4013175</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-02 13:35:40</sys_updated_on>
+        <sys_updated_on>2024-09-02 18:01:57</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>

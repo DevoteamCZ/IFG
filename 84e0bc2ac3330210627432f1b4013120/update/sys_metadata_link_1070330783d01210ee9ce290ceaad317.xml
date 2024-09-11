@@ -66,7 +66,7 @@ Postman mock server guide: https://learning.postman.com/docs/designing-and-devel
 Requirements:&amp;#13;
 &amp;#13;
 1. Create outbound REST message (POST) with Postman mock server as endpoint.&amp;#13;
-2. Create custom assignment group 'DIP  technical'.&amp;#13;
+2. Create custom assignment group 'DIP technical'.&amp;#13;
 3. Create DIP package with outbound trigger where condition is assignment_group.name == "DIP technical".&amp;#13;
 4. Create DIP case using job "outbound blank" and REST message details and method you created in step 1.&amp;#13;
 5. Create mapping  for fields you want to see in the related table at the bottom of the form. Mapping document is in the attachment of this story.&amp;#13;
@@ -153,9 +153,9 @@ Hints:&amp;#13;
         &lt;sys_domain&gt;global&lt;/sys_domain&gt;
         &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;62accbc783101210ee9ce290ceaad3d4&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2024-09-03 18:51:23&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2024-09-11 11:31:49&lt;/sys_updated_on&gt;
         &lt;task&gt;Setup automatic outbound REST message​STRY0010068&lt;/task&gt;
         &lt;task_effective_number&gt;STRY0010068&lt;/task_effective_number&gt;
         &lt;theme/&gt;
@@ -229,14 +229,14 @@ Hints:&amp;#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-02 12:06:49</sys_created_on>
         <sys_id>1070330783d01210ee9ce290ceaad317</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Setup automatic outbound REST message</sys_name>
         <sys_package display_value="Onboarding programme" source="x_247624_onbaord_0">84e0bc2ac3330210627432f1b4013120</sys_package>
         <sys_policy/>
         <sys_scope display_value="Onboarding programme">84e0bc2ac3330210627432f1b4013120</sys_scope>
         <sys_update_name>sys_metadata_link_1070330783d01210ee9ce290ceaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:40:13</sys_updated_on>
+        <sys_updated_on>2024-09-11 11:37:57</sys_updated_on>
         <tablename>rm_story</tablename>
     </sys_metadata_link>
 </record_update>
